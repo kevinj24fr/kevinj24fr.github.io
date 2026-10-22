@@ -180,3 +180,19 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
   .avatar { width: 112px; height: 112px; }
   .tools tbody th { white-space: normal; }
 }
+
+/* Publications */
+.year { margin: 1.25rem 0 .5rem; font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+ol.pubs { list-style: none; margin: 0; padding: 0; }
+.pub { padding: .55rem 0; border-bottom: 1px solid var(--border); }
+.pub:last-child { border-bottom: 0; }
+.pub-title { display: inline; font-weight: 500; color: var(--heading); }
+.pub-title:hover { color: var(--accent); }
+.pub-meta { display: block; font-size: .9rem; color: var(--muted); margin-top: .15rem; }
+.pub-meta strong { color: var(--text); font-weight: 600; }
+.pill { display: inline-block; margin-left: .4rem; font-size: .72rem; padding: .05rem .5rem; border-radius: 999px; background: var(--accent-soft); color: var(--accent); vertical-align: middle; }
+details.older { margin-top: 1.25rem; }
+details.older > summary { cursor: pointer; font-weight: 500; color: var(--accent); padding: .5rem 0; }
+details.older > summary:hover { text-decoration: underline; }
+.tools + h3 { margin-top: 1.5rem; }
+.section > h3 { margin-top: .5rem; }
