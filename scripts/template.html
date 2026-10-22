@@ -17,7 +17,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2314213d'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f6f4ef' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
   <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1a2e" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22g">
+  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22h">
   <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);})();</script>
 </head>
 <body>
@@ -34,6 +34,12 @@
     </nav>
     <button id="theme-toggle" class="toggle mono" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="t-light">dark</span><span class="t-dark">light</span></button>
   </div>
+  <nav aria-label="Sections, small screens" class="mono nav-small">
+    <a href="#work">work</a>
+    <a href="#tools">tools</a>
+    <a href="#papers">papers</a>
+    <a href="#contact">contact</a>
+  </nav>
 </header>
 
 <main id="main">
@@ -51,11 +57,8 @@
     </div>
 
     <dl class="sidecar mono" aria-label="At a glance">
-      <div><dt>role</dt><dd>Research Group Leader, NeuroEngineering (NE)</dd></div>
-      <div><dt>where</dt><dd>Dept. of Neurosurgery, Medical Center – University of Freiburg, Germany</dd></div>
       <div><dt>org</dt><dd><a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">3DBM &amp; NE</a> — two groups, one GitHub. 3DBM is led by Vidhya M. Ravi; NE is mine.</dd></div>
       <div><dt>writes</dt><dd>Rust first. R and Python where the ecosystem lives.</dd></div>
-      <div><dt>stance</dt><dd>deterministic · auditable · single binary · no cloud</dd></div>
       <div><dt>links</dt><dd><a href="https://github.com/kevinj24fr" target="_blank" rel="noopener noreferrer">github</a> · <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">orcid</a> · <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">scholar</a> · <a href="https://www.linkedin.com/in/josephkevin" target="_blank" rel="noopener noreferrer">linkedin</a> · <a href="mailto:kevin.joseph@uniklinik-freiburg.de">email</a></dd></div>
     </dl>
   </section>
@@ -130,25 +133,20 @@
 
   <section id="papers" class="sec">
     <div class="sec-head"><span class="num mono">03</span><h2>Papers</h2></div>
-    <p class="intro">{{N_ALL}} peer-reviewed papers and preprints since 2019, each linked to its DOI. Conference abstracts are left out. The complete record is on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
+    <p class="intro">Eight selected papers, then all {{N_ALL}} peer-reviewed papers and preprints since 2019 by year, each linked to its DOI. Conference abstracts are left out. The complete record is on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
     <div class="pubs">
 {{RECENT}}
     </div>
     <details class="older">
-      <summary class="mono">show 2019–2023 ({{N_OLD}} more)</summary>
+      <summary class="mono">all {{N_OLD}} papers by year</summary>
       <div class="pubs">
 {{OLDER}}
       </div>
     </details>
   </section>
 
-  <section id="off" class="sec">
-    <div class="sec-head"><span class="num mono">04</span><h2>Off the clock</h2></div>
-    <p>I keep the same rules at home. There is a climate model of the Earth built one mechanism at a time in dependency-free Rust against ice-core and isotope records, to find out which conclusions the physics forces and which depend on parameter choices. There is also a USB enclosure that fails to enumerate past two drives, with a defect report and a driver in progress. Neither pays, both teach.</p>
-  </section>
-
   <section id="contact" class="sec">
-    <div class="sec-head"><span class="num mono">05</span><h2>Working together</h2></div>
+    <div class="sec-head"><span class="num mono">04</span><h2>Working together</h2></div>
     <p>Open to collaborations with postdocs and ML scientists who want to build methods rather than apply them, biologists and clinicians with a question and tissue to go with it, and industry partners in neurotechnology or digital twins of the brain. Write to <a href="mailto:kevin.joseph@uniklinik-freiburg.de">kevin.joseph@uniklinik-freiburg.de</a>. Short emails get short answers, quickly.</p>
   </section>
 
@@ -162,6 +160,6 @@
   </div>
 </footer>
 
-<script src="assets/js/main.js?v=2026-10-22g"></script>
+<script src="assets/js/main.js?v=2026-10-22h"></script>
 </body>
 </html>

@@ -17,7 +17,8 @@
   "journal": "Brain and Spine",
   "preprint": false,
   "doi": "10.1016/j.bas.2026.106856",
-  "cr_journal": "Brain and Spine"
+  "cr_journal": "Brain and Spine",
+  "selected": 5
  },
  {
   "year": 2026,
@@ -37,7 +38,8 @@
   "journal": "Biomaterials Advances",
   "preprint": false,
   "doi": "10.1016/j.bioadv.2026.215226",
-  "cr_journal": "Biomaterials Advances"
+  "cr_journal": "Biomaterials Advances",
+  "selected": 4
  },
  {
   "year": 2026,
@@ -53,7 +55,8 @@
   "journal": "Iscience",
   "preprint": false,
   "doi": "10.1016/j.isci.2026.116485",
-  "cr_journal": "iScience"
+  "cr_journal": "iScience",
+  "selected": 2
  },
  {
   "year": 2026,
@@ -73,7 +76,8 @@
   "journal": "PLoS One",
   "preprint": false,
   "doi": "10.1371/journal.pone.0351819",
-  "cr_journal": "PLOS One"
+  "cr_journal": "PLOS One",
+  "selected": null
  },
  {
   "year": 2026,
@@ -93,7 +97,8 @@
   "journal": "Cancer cell",
   "preprint": false,
   "doi": "10.1016/j.ccell.2026.08.005",
-  "cr_journal": "Cancer Cell"
+  "cr_journal": "Cancer Cell",
+  "selected": 0
  },
  {
   "year": 2026,
@@ -113,7 +118,8 @@
   "journal": "Neuro-Oncology",
   "preprint": false,
   "doi": "10.1093/neuonc/noag220",
-  "cr_journal": "Neuro-Oncology"
+  "cr_journal": "Neuro-Oncology",
+  "selected": 1
  },
  {
   "year": 2026,
@@ -133,7 +139,8 @@
   "journal": "bioRxiv",
   "preprint": true,
   "doi": "10.64898/2026.02.26.707379",
-  "cr_journal": ""
+  "cr_journal": "",
+  "selected": null
  },
  {
   "year": 2026,
@@ -149,7 +156,8 @@
   "journal": "bioRxiv",
   "preprint": true,
   "doi": "10.64898/2026.03.19.712876",
-  "cr_journal": ""
+  "cr_journal": "",
+  "selected": null
  },
  {
   "year": 2026,
@@ -169,7 +177,8 @@
   "journal": "bioRxiv",
   "preprint": true,
   "doi": "10.64898/2026.05.31.729105",
-  "cr_journal": ""
+  "cr_journal": "",
+  "selected": null
  },
  {
   "year": 2025,
@@ -189,7 +198,8 @@
   "journal": "Interventional Neuroradiology",
   "preprint": false,
   "doi": "10.1177/15910199251339537",
-  "cr_journal": "Interventional Neuroradiology"
+  "cr_journal": "Interventional Neuroradiology",
+  "selected": null
  },
  {
   "year": 2025,
@@ -209,7 +219,8 @@
   "journal": "Brain and Spine",
   "preprint": false,
   "doi": "10.1016/j.bas.2025.105635",
-  "cr_journal": "Brain and Spine"
+  "cr_journal": "Brain and Spine",
+  "selected": null
  },
  {
   "year": 2025,
@@ -229,7 +240,8 @@
   "journal": "Life science alliance",
   "preprint": false,
   "doi": "10.26508/lsa.202403160",
-  "cr_journal": "Life Science Alliance"
+  "cr_journal": "Life Science Alliance",
+  "selected": 3
  },
  {
   "year": 2025,
@@ -249,7 +261,8 @@
   "journal": "Nature cell biology",
   "preprint": false,
   "doi": "10.1038/s41556-024-01583-9",
-  "cr_journal": "Nature Cell Biology"
+  "cr_journal": "Nature Cell Biology",
+  "selected": null
  },
  {
   "year": 2025,
@@ -269,7 +282,8 @@
   "journal": "Plos one",
   "preprint": false,
   "doi": "10.1371/journal.pone.0319349",
-  "cr_journal": "PLOS ONE"
+  "cr_journal": "PLOS ONE",
+  "selected": null
  },
  {
   "year": 2025,
@@ -289,7 +303,8 @@
   "journal": "Neuro-Oncology",
   "preprint": false,
   "doi": "10.1093/neuonc/noaf160",
-  "cr_journal": "Neuro-Oncology"
+  "cr_journal": "Neuro-Oncology",
+  "selected": null
  },
  {
   "year": 2024,
@@ -309,7 +324,8 @@
   "journal": "Frontiers in Surgery",
   "preprint": false,
   "doi": "10.3389/fsurg.2024.1500158",
-  "cr_journal": "Frontiers in Surgery"
+  "cr_journal": "Frontiers in Surgery",
+  "selected": null
  },
  {
   "year": 2024,
@@ -329,7 +345,8 @@
   "journal": "Cell death & disease",
   "preprint": false,
   "doi": "10.1038/s41419-024-07056-z",
-  "cr_journal": "Cell Death &amp; Disease"
+  "cr_journal": "Cell Death &amp; Disease",
+  "selected": null
  },
  {
   "year": 2024,
@@ -349,7 +366,8 @@
   "journal": "Nature communications",
   "preprint": false,
   "doi": "10.1038/s41467-024-47985-z",
-  "cr_journal": "Nature Communications"
+  "cr_journal": "Nature Communications",
+  "selected": null
  },
  {
   "year": 2024,
@@ -369,7 +387,8 @@
   "journal": "Communications biology",
   "preprint": false,
   "doi": "10.1038/s42003-024-07144-y",
-  "cr_journal": "Communications Biology"
+  "cr_journal": "Communications Biology",
+  "selected": null
  },
  {
   "year": 2023,
@@ -385,7 +404,8 @@
   "journal": "2023 IEEE BioSensors Conference (BioSensors)",
   "preprint": false,
   "doi": "10.1109/biosensors58001.2023.10280915",
-  "cr_journal": "2023 IEEE BioSensors Conference (BioSensors)"
+  "cr_journal": "2023 IEEE BioSensors Conference (BioSensors)",
+  "selected": null
  },
  {
   "year": 2023,
@@ -405,7 +425,8 @@
   "journal": "Nature communications",
   "preprint": false,
   "doi": "10.1038/s41467-023-43201-6",
-  "cr_journal": "Nature Communications"
+  "cr_journal": "Nature Communications",
+  "selected": null
  },
  {
   "year": 2023,
@@ -425,7 +446,8 @@
   "journal": "STAR protocols",
   "preprint": false,
   "doi": "10.1016/j.xpro.2023.102383",
-  "cr_journal": "STAR Protocols"
+  "cr_journal": "STAR Protocols",
+  "selected": null
  },
  {
   "year": 2023,
@@ -445,7 +467,8 @@
   "journal": "Neuro-Oncology",
   "preprint": false,
   "doi": "10.1093/neuonc/noad101",
-  "cr_journal": "Neuro-Oncology"
+  "cr_journal": "Neuro-Oncology",
+  "selected": null
  },
  {
   "year": 2022,
@@ -465,7 +488,8 @@
   "journal": "EMBO molecular medicine",
   "preprint": false,
   "doi": "10.15252/emmm.202115343",
-  "cr_journal": "EMBO Molecular Medicine"
+  "cr_journal": "EMBO Molecular Medicine",
+  "selected": null
  },
  {
   "year": 2022,
@@ -485,7 +509,8 @@
   "journal": "Nature neuroscience",
   "preprint": false,
   "doi": "10.1038/s41593-021-00951-0",
-  "cr_journal": "Nature Neuroscience"
+  "cr_journal": "Nature Neuroscience",
+  "selected": null
  },
  {
   "year": 2022,
@@ -505,7 +530,8 @@
   "journal": "Cancer cell",
   "preprint": false,
   "doi": "10.1016/j.ccell.2022.05.009",
-  "cr_journal": "Cancer Cell"
+  "cr_journal": "Cancer Cell",
+  "selected": 6
  },
  {
   "year": 2022,
@@ -525,7 +551,8 @@
   "journal": "Nature communications",
   "preprint": false,
   "doi": "10.1038/s41467-022-28523-1",
-  "cr_journal": "Nature Communications"
+  "cr_journal": "Nature Communications",
+  "selected": null
  },
  {
   "year": 2021,
@@ -545,7 +572,8 @@
   "journal": "Cell death & disease",
   "preprint": false,
   "doi": "10.1038/s41419-021-03937-9",
-  "cr_journal": "Cell Death &amp; Disease"
+  "cr_journal": "Cell Death &amp; Disease",
+  "selected": null
  },
  {
   "year": 2021,
@@ -565,7 +593,8 @@
   "journal": "Neuro-Oncology",
   "preprint": false,
   "doi": "10.1093/neuonc/noab092",
-  "cr_journal": "Neuro-Oncology"
+  "cr_journal": "Neuro-Oncology",
+  "selected": null
  },
  {
   "year": 2021,
@@ -582,7 +611,8 @@
   "journal": "Biomaterials",
   "preprint": false,
   "doi": "10.1016/j.biomaterials.2021.121230",
-  "cr_journal": "Biomaterials"
+  "cr_journal": "Biomaterials",
+  "selected": 7
  },
  {
   "year": 2020,
@@ -599,7 +629,8 @@
   "journal": "Journal of neural engineering",
   "preprint": false,
   "doi": "10.1088/1741-2552/ab4c69",
-  "cr_journal": "Journal of Neural Engineering"
+  "cr_journal": "Journal of Neural Engineering",
+  "selected": null
  },
  {
   "year": 2020,
@@ -619,7 +650,8 @@
   "journal": "BioRxiv",
   "preprint": true,
   "doi": "10.1101/2020.10.20.346544",
-  "cr_journal": ""
+  "cr_journal": "",
+  "selected": null
  },
  {
   "year": 2019,
@@ -639,7 +671,8 @@
   "journal": "Cancers",
   "preprint": false,
   "doi": "10.3390/cancers11101437",
-  "cr_journal": "Cancers"
+  "cr_journal": "Cancers",
+  "selected": null
  },
  {
   "year": 2019,
@@ -659,7 +692,8 @@
   "journal": "Life science alliance",
   "preprint": false,
   "doi": "10.26508/lsa.201900305",
-  "cr_journal": "Life Science Alliance"
+  "cr_journal": "Life Science Alliance",
+  "selected": null
  },
  {
   "year": 2019,
@@ -679,7 +713,8 @@
   "journal": "Cancers",
   "preprint": false,
   "doi": "10.3390/cancers11060858",
-  "cr_journal": "Cancers"
+  "cr_journal": "Cancers",
+  "selected": null
  },
  {
   "year": 2019,
@@ -699,7 +734,8 @@
   "journal": "Scientific reports",
   "preprint": false,
   "doi": "10.1038/s41598-019-42544-9",
-  "cr_journal": "Scientific Reports"
+  "cr_journal": "Scientific Reports",
+  "selected": null
  },
  {
   "year": 2019,
@@ -719,6 +755,7 @@
   "journal": "Nature communications",
   "preprint": false,
   "doi": "10.1038/s41467-019-10493-6",
-  "cr_journal": "Nature Communications"
+  "cr_journal": "Nature Communications",
+  "selected": null
  }
 ]

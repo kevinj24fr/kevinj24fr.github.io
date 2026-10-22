@@ -54,6 +54,7 @@ code { font-family: var(--mono); font-size: .9em; }
 .top nav { display: flex; gap: 1.1rem; margin-left: auto; }
 .top nav a { color: var(--ink-2); }
 .top nav a:hover { color: var(--rust); }
+.nav-small { display: none; }
 .toggle { background: none; border: 1px solid var(--rule); border-radius: 3px; color: var(--ink-2); padding: .2rem .55rem; cursor: pointer; }
 .toggle:hover { border-color: var(--rust); color: var(--rust); }
 .t-dark { display: none; }
@@ -74,7 +75,7 @@ h1 { font-family: var(--serif); font-weight: 500; font-size: 3rem; line-height: 
 .portrait { width: 160px; height: 160px; border-radius: 4px; object-fit: cover; flex-shrink: 0; }
 
 .sidecar { margin: 2.25rem 0 0; padding: 1rem 1.25rem; border: 1px solid var(--rule); border-left: 3px solid var(--rust); background: var(--paper-2); display: grid; gap: .3rem; }
-.sidecar > div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; }
+.sidecar > div { display: grid; grid-template-columns: 4.5rem 1fr; gap: 1rem; }
 .sidecar dt { color: var(--mute); }
 .sidecar dd { margin: 0; color: var(--ink); }
 
@@ -145,7 +146,9 @@ details.older > summary::-webkit-details-marker { display: none; }
 }
 
 @media (max-width: 640px) {
-  .top nav { display: none; }
+  .top nav:not(.nav-small) { display: none; }
+  .nav-small { display: flex; gap: 1.1rem; padding: 0 1.5rem .55rem; margin-top: -.3rem; }
+  .nav-small a { color: var(--ink-2); }
   .toggle { margin-left: auto; }
   .hero { padding-top: 2.25rem; }
   .hero-grid { flex-direction: column-reverse; gap: 1.25rem; }
