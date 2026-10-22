@@ -3,238 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kevin Joseph — Computational Neuro-oncology · Multi-Omics · Gliophysiology</title>
-  <meta name="description" content="Kevin Joseph leads an interdisciplinary research program at the University Medical Center Freiburg where single-cell and spatial transcriptomics, AI, and neurotechnology converge.">
+  <title>Kevin Joseph — NeuroEngineering, Freiburg</title>
+  <meta name="description" content="Kevin Joseph leads the NeuroEngineering lab at the Department of Neurosurgery, Medical Center – University of Freiburg. Single-cell and spatial transcriptomics, neural implants, deterministic Rust tooling.">
   <meta name="author" content="Kevin Joseph">
   <link rel="canonical" href="https://kevinj24fr.github.io/">
-
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Kevin Joseph">
-  <meta property="og:description" content="Computational Neuro-oncology · Multi-Omics · Gliophysiology — University Medical Center Freiburg">
+  <meta property="og:description" content="NeuroEngineering, Dept. of Neurosurgery, Medical Center – University of Freiburg. Single-cell and spatial transcriptomics, neural implants, deterministic Rust tooling.">
   <meta property="og:url" content="https://kevinj24fr.github.io/">
   <meta property="og:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
-  <meta name="twitter:site" content="@kevinj03">
-
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232c3e50'/%3E%3Ctext x='32' y='43' font-family='system-ui,sans-serif' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3EKJ%3C/text%3E%3C/svg%3E">
-  <meta name="theme-color" content="#2c3e50" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
-
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231c1b19'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f3efe7' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f3efe7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script>
-    // Apply saved theme before first paint to avoid a flash.
-    (function () {
-      var t = localStorage.getItem('theme');
-      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
-    })();
-  </script>
+  <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);})();</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="#top">Kevin Joseph</a>
-      <nav class="site-nav" aria-label="Sections">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#software">Software</a>
-        <a href="#expertise">Expertise</a>
-        <a href="#collaborate">Collaborate</a>
-      </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
-        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-      </button>
+<header class="top">
+  <div class="wrap">
+    <a class="brand mono" href="#top">kevin joseph</a>
+    <nav aria-label="Sections" class="mono">
+      <a href="#work">work</a>
+      <a href="#rules">rules</a>
+      <a href="#tools">tools</a>
+      <a href="#papers">papers</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <button id="theme-toggle" class="toggle mono" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="t-light">dark</span><span class="t-dark">light</span></button>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+  <section id="top" class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="kicker mono">Dr.-Ing. · Research Group Leader, NeuroEngineering</p>
+        <h1>Kevin Joseph</h1>
+        <p class="lede">I measure how the human brain responds to tumors, trauma, and the devices we put into it, and I build the instruments that make those measurements reproducible.</p>
+        <p class="lede-sub">Department of Neurosurgery, Medical Center – University of Freiburg.</p>
+      </div>
+      <img class="portrait" src="assets/img/kevin-joseph.jpg" alt="Kevin Joseph" width="160" height="160" loading="eager" fetchpriority="high">
     </div>
-  </header>
 
-  <main id="main" class="page-content">
-    <div class="wrapper">
+    <dl class="sidecar mono" aria-label="At a glance">
+      <div><dt>role</dt><dd>Research Group Leader, NeuroEngineering (NE)</dd></div>
+      <div><dt>where</dt><dd>Dept. of Neurosurgery, Medical Center – University of Freiburg, Germany</dd></div>
+      <div><dt>org</dt><dd><a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">3DBM &amp; NE</a> — two groups, one GitHub. 3DBM is led by Vidhya M. Ravi; NE is mine.</dd></div>
+      <div><dt>writes</dt><dd>Rust first. R and Python where the ecosystem lives.</dd></div>
+      <div><dt>stance</dt><dd>deterministic · auditable · single binary · no cloud</dd></div>
+      <div><dt>links</dt><dd><a href="https://github.com/kevinj24fr" target="_blank" rel="noopener noreferrer">github</a> · <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">orcid</a> · <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">scholar</a> · <a href="https://www.linkedin.com/in/josephkevin" target="_blank" rel="noopener noreferrer">linkedin</a> · <a href="mailto:kevin.joseph@uniklinik-freiburg.de">email</a></dd></div>
+    </dl>
+  </section>
 
-      <section id="top" class="hero">
-        <img class="avatar" src="assets/img/kevin-joseph.jpg" alt="Kevin Joseph" width="144" height="144" loading="eager" fetchpriority="high">
-        <div class="hero-text">
-          <h1>Kevin Joseph</h1>
-          <p class="tagline">Computational Neuro-oncology · Multi-Omics · Gliophysiology</p>
-          <p class="affiliation">Research Group Leader, <a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">3DBM&amp;NE Lab</a> (Glia and Glioma Systems Biology) · Medical Center – University of Freiburg, Germany</p>
-          <ul class="links" aria-label="Profiles and contact">
-            <li><a href="mailto:kevin.joseph@uniklinik-freiburg.de">Email</a></li>
-            <li><a href="https://github.com/kevinj24fr" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a></li>
-            <li><a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
-            <li><a href="https://www.linkedin.com/in/josephkevin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          </ul>
-        </div>
-      </section>
+  <section id="work" class="sec">
+    <div class="sec-head"><span class="num mono">01</span><h2>What the lab measures</h2></div>
+    <p class="intro">NeuroEngineering sits between the operating theatre and the sequencer. Tissue comes out of surgery, goes into culture or onto a slide, and we read what the cells are doing with single-cell, spatial, and physiological measurements. Six threads at the moment.</p>
+    <ol class="ledger">
+      <li>
+        <h3>Spatial organization of gliomas</h3>
+        <p>How IDH-mutant gliomas reorganize as they progress (<i>Cancer Cell</i> 2026). Hypoxic niches that drive transcriptional plasticity in low-grade glioma. Iron-metabolism stress programs that prime invasive mesenchymal glioblastoma states (<i>Neuro-Oncology</i> 2026).</p>
+      </li>
+      <li>
+        <h3>Tumor immune microenvironment</h3>
+        <p>Cell-type specific myeloid responses to hypoxia and acidosis in glioblastoma. Grade-independent immune subgroups and a T-cell recruitment deficit in meningioma (<i>Brain and Spine</i> 2026). Spatially resolved T-cell receptor profiling.</p>
+      </li>
+      <li>
+        <h3>Human brain tissue models</h3>
+        <p>Human brain slice cultures as a translational platform (<i>Life Science Alliance</i> 2025). Injection-free, spatially controlled tumor delivery with soft cryogels (<i>Biomaterials Advances</i> 2026). Tumoroids checked against the tissue they came from.</p>
+      </li>
+      <li>
+        <h3>Neural implants and brain microinjury</h3>
+        <p>MicroFace: automated microglial morphometry that resolves spatial zones and bifurcated recovery trajectories after microinjury (<i>iScience</i> 2026). Biomarkers of the tissue response to chronic cortical electrodes. What flexible probes do to the transcriptome and the physiology around them.</p>
+      </li>
+      <li>
+        <h3>CSF and spectroscopic diagnostics</h3>
+        <p>CSF proteomics across spontaneous intracranial hypotension and other neurological disease. FTIR spectroscopy with machine learning for CSF leak and contrast-agent detection (DiaQnos, BMBF-funded).</p>
+      </li>
+      <li>
+        <h3>Neurosurgical translation</h3>
+        <p>Riboflavin–UVA crosslinking to strengthen dura mater (<i>PLOS ONE</i> 2026). Platelet-rich fibrin for dural closure and as an epidural patch for post-dural-puncture headache. Safety of cortical access-point biopsies during shunt surgery.</p>
+      </li>
+    </ol>
+  </section>
 
-      <section id="mission" class="section">
-        <h2>Mission</h2>
-        <p>I lead an interdisciplinary research program where <strong>single-cell &amp; spatial transcriptomics</strong>, <strong>AI</strong>, and <strong>neurotechnology</strong> converge. We aim to transform <strong>high-dimensional biological data</strong> into <strong>clinical insights</strong> and to advance fundamental understanding of how the brain responds to tumors, trauma, and intervention.</p>
-        <p>As a computational biologist, I build the tools to explore these data. As a neuroscientist, I collaborate to drive discovery across disciplines.</p>
-      </section>
+  <section id="rules" class="sec">
+    <div class="sec-head"><span class="num mono">02</span><h2>How I work</h2></div>
+    <p class="intro">Rules I keep in the README of every tool I ship. They cost time up front and save more later.</p>
+    <ol class="rules">
+      <li><b>Validate the measurement before building anything.</b> What exactly is being measured, and what is the minimal operation that measures it? If the answer is “generate text and parse it”, the instrument is wrong. Fix the instrument, do not engineer around it.</li>
+      <li><b>Identical input gives byte-identical output.</b> Seeded RNG, content-addressed provenance, a sidecar per run that names the binary, the inputs, and the outputs by hash. Any result can be traced to its source and rerun.</li>
+      <li><b>Every claim carries the experiment behind it.</b> Statements are graded by the strongest evidence their source offers, not by whether they sound right. Where the model fails, it says so.</li>
+      <li><b>Keep the rejected methods.</b> Each one with the number that killed it and whether the attempt was fair. A negative result is only as strong as the best implementation tried.</li>
+      <li><b>Ship one binary.</b> No Python startup time, no dependency hell. If a 27 GB atlas has to be opened to check a column, the tool is wrong.</li>
+      <li><b>One machine, SQLite everywhere, no cloud.</b> Patient-derived data stays on hardware I can point at.</li>
+    </ol>
+  </section>
 
-      <section id="research" class="section">
-        <h2>Research</h2>
-        <p>Our lab, <a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">3DBM&amp;NE</a>, works on glia and glioma systems biology: how brain tumors, trauma, and implanted devices reshape the cellular ecosystem of the human brain, and how to read that out with single-cell, spatial, and physiological measurements.</p>
-        <div class="grid cards">
-          <article class="card">
-            <h3>Spatial organization of gliomas</h3>
-            <ul>
-              <li>How IDH-mutant gliomas reorganize as they progress, mapped with spatial transcriptomics (<em>Cancer Cell</em> 2026)</li>
-              <li>Hypoxic niches that drive transcriptional plasticity in low-grade glioma</li>
-              <li>Iron-metabolism stress programs that prime invasive mesenchymal glioblastoma states (<em>Neuro-Oncology</em> 2026)</li>
-            </ul>
-            <p class="tags"><span>Spatial</span><span>Single-cell</span><span>Plasticity</span></p>
-          </article>
-          <article class="card">
-            <h3>Tumor immune microenvironment</h3>
-            <ul>
-              <li>Cell-type specific myeloid responses to hypoxia and acidosis in glioblastoma</li>
-              <li>Grade-independent immune subgroups and T-cell recruitment deficits in meningioma (<em>Brain and Spine</em> 2026)</li>
-              <li>Spatially resolved T-cell receptor profiling and myeloid-driven T-cell dysfunction</li>
-            </ul>
-            <p class="tags"><span>Immunology</span><span>Meningioma</span><span>Glioblastoma</span></p>
-          </article>
-          <article class="card">
-            <h3>Human brain tissue models</h3>
-            <ul>
-              <li>Human brain slice cultures as a translational platform (<em>Life Science Alliance</em> 2025)</li>
-              <li>Injection-free, spatially controlled tumor delivery with soft cryogels (<em>Biomaterials Advances</em> 2026)</li>
-              <li>Organoid and tumoroid validation, pharmacological atlases, and the post-surgical microenvironment</li>
-            </ul>
-            <p class="tags"><span>Ex vivo</span><span>Organoids</span><span>Drug response</span></p>
-          </article>
-          <article class="card">
-            <h3>Neural implants and brain microinjury</h3>
-            <ul>
-              <li>MicroFace: automated microglial morphometry revealing spatial zones and bifurcated recovery trajectories after microinjury (<em>iScience</em> 2026)</li>
-              <li>Biomarkers of the tissue response to chronic cortical electrodes</li>
-              <li>Transcriptional and physiological consequences of flexible probe implantation</li>
-            </ul>
-            <p class="tags"><span>Neurotechnology</span><span>Microglia</span><span>Imaging</span></p>
-          </article>
-          <article class="card">
-            <h3>CSF and spectroscopic diagnostics</h3>
-            <ul>
-              <li>CSF proteomics across spontaneous intracranial hypotension and other neurological disease</li>
-              <li>FTIR spectroscopy with machine learning for CSF leak and contrast-agent detection (DiaQnos, BMBF-funded)</li>
-            </ul>
-            <p class="tags"><span>Proteomics</span><span>FTIR</span><span>Clinical ML</span></p>
-          </article>
-          <article class="card">
-            <h3>Neurosurgical translation</h3>
-            <ul>
-              <li>Riboflavin–UVA crosslinking to strengthen dura mater (<em>PLOS ONE</em> 2026)</li>
-              <li>Platelet-rich fibrin for dural closure and as an epidural patch for post-dural-puncture headache</li>
-              <li>Safety of cortical access-point biopsies during shunt surgery</li>
-            </ul>
-            <p class="tags"><span>Dura</span><span>Biomaterials</span><span>Clinical studies</span></p>
-          </article>
-        </div>
-      </section>
-      <section id="publications" class="section">
-        <h2>Publications</h2>
-        <p>Peer-reviewed papers and preprints since 2019. Conference abstracts are omitted. Full record on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
-<h3 class="year">2026</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.bas.2026.106856" target="_blank" rel="noopener noreferrer">Immune Microenvironment Profiling Reveals Grade-Independent Subgroups and a Selective T Cell Recruitment Deficit in Meningioma</a><span class="pub-meta">Nurellari K, Mohammed AO … Grauvogel J · <em>Brain and Spine</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.bioadv.2026.215226" target="_blank" rel="noopener noreferrer">Injection-free, spatially controlled delivery of glioblastoma cells to human brain slice cultures using soft cryogel biomaterials</a><span class="pub-meta">Hill S, Mohammed AO … Werner C · <em>Biomaterials Advances</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.isci.2026.116485" target="_blank" rel="noopener noreferrer">MicroFace maps microglial morphology remodeling, revealing spatial zones and bifurcated trajectories during brain microinjury recovery</a><span class="pub-meta">Jariwala VD, Ponnamma S … <strong>Joseph K</strong> · <em>iScience</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1371/journal.pone.0351819" target="_blank" rel="noopener noreferrer">Riboflavin-sensitized UVA collagen crosslinking produced a controllable, dose-dependent increase in the nanomechanical strength of ex vivo bovine dura mater</a><span class="pub-meta">Vasilikos I, Swamy SM … Shah MJ · <em>PLOS ONE</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.ccell.2026.08.005" target="_blank" rel="noopener noreferrer">Spatial analysis reveals the evolving organization of IDH-mutant glioma</a><span class="pub-meta">Hoefflin R, Greenwald AC … Goliand I · <em>Cancer Cell</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1093/neuonc/noag220" target="_blank" rel="noopener noreferrer">Spatially restricted iron-metabolism-associated stress programs prime invasive mesenchymal glioblastoma states in human tissue-context models</a><span class="pub-meta">Petry C, Boecke AS … Vlachos A · <em>Neuro-Oncology</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.02.26.707379" target="_blank" rel="noopener noreferrer">Hypoxia and Associated Acidosis Generate Cell-Type Specific Myeloid Responses in Glioblastoma</a> <span class="pill">preprint</span><span class="pub-meta">Tiihonen AM, Salonen I … Mäntylä S · <em>bioRxiv</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.03.19.712876" target="_blank" rel="noopener noreferrer">In Search for Biomarkers Reflecting Neural Implant-Induced Tissue Response Dynamics</a> <span class="pill">preprint</span><span class="pub-meta">Sharbatian A, <strong>Joseph K</strong> … Ashouri D · <em>bioRxiv</em> 2026</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.05.31.729105" target="_blank" rel="noopener noreferrer">Spatially confined niches support hypoxia-associated transcriptional plasticity contributing to malignant progression in IDH-mutant gliomas</a> <span class="pill">preprint</span><span class="pub-meta">Das D, Pandele A … Shhab MA · <em>bioRxiv</em> 2026</span></li></ol><h3 class="year">2025</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1177/15910199251339537" target="_blank" rel="noopener noreferrer">Autologous platelet-rich fibrin as an alternative epidural patch for persistent post-dural puncture headache: A single-center observational study</a><span class="pub-meta">Vasilikos I, Argiti K … <strong>Joseph K</strong> … Beck J · <em>Interventional Neuroradiology</em> 2025</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.bas.2025.105635" target="_blank" rel="noopener noreferrer">Feasibility and safety of cortical access point biopsy during hydrocephalus shunt surgery</a><span class="pub-meta">Amirah R, Kim DB … <strong>Joseph K</strong> … Beck J · <em>Brain and Spine</em> 2025</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.26508/lsa.202403160" target="_blank" rel="noopener noreferrer">Human brain slice cultures: translational applications and ethical considerations</a><span class="pub-meta"><strong>Joseph K</strong>, Vasilikos I … Fistouris P · <em>Life Science Alliance</em> 2025</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41556-024-01583-9" target="_blank" rel="noopener noreferrer">Mapping the developmental trajectory of human astrocytes reveals divergence in glioblastoma</a><span class="pub-meta">Sojka C, Wang HLV … <strong>Joseph K</strong> · <em>Nature Cell Biology</em> 2025</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1371/journal.pone.0319349" target="_blank" rel="noopener noreferrer">Platelet rich fibrin and commercial sealants for dural closure in neurosurgery: an in vitro study</a><span class="pub-meta">Argiti K, Shah MJ … <strong>Joseph K</strong> … Rölz R · <em>PLOS ONE</em> 2025</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1093/neuonc/noaf160" target="_blank" rel="noopener noreferrer">Proneural–mesenchymal hybrid glioblastoma cells are resistant to therapy and dependent on nuclear import</a><span class="pub-meta">Bourmeau G, Anezo O … Moutaux E · <em>Neuro-Oncology</em> 2025</span></li></ol><h3 class="year">2024</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.3389/fsurg.2024.1500158" target="_blank" rel="noopener noreferrer">Platelet rich fibrin three-layer reconstruction of the sellar floor after endoscopic endonasal transsphenoidal approach: technical note and initial experience</a><span class="pub-meta">Shah MJ, Argiti K … <strong>Joseph K</strong> … Beck J · <em>Frontiers in Surgery</em> 2024</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41419-024-07056-z" target="_blank" rel="noopener noreferrer">SMAC mimetic drives microglia phenotype and glioblastoma immune microenvironment</a><span class="pub-meta">Snacel-Fazy E, Soubéran A … <strong>Joseph K</strong> … Debarbieux F · <em>Cell Death &amp; Disease</em> 2024</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41467-024-47985-z" target="_blank" rel="noopener noreferrer">VC-resist glioblastoma cell state: vessel co-option as a key driver of chemoradiation resistance</a><span class="pub-meta">Pichol-Thievend C, Anezo O … Blanchard B · <em>Nature Communications</em> 2024</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s42003-024-07144-y" target="_blank" rel="noopener noreferrer">ZBTB18 regulates cytokine expression and affects microglia/macrophage recruitment and commitment in glioblastoma</a><span class="pub-meta">Ferrarese R, <strong>Joseph K</strong> … Prinz M · <em>Communications Biology</em> 2024</span></li></ol>
-        <details class="older">
-          <summary>Earlier publications, 2019–2023 (18)</summary>
-<h3 class="year">2023</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1109/biosensors58001.2023.10280915" target="_blank" rel="noopener noreferrer">Determination of patient-derived brain cancer cell respiration rates with chip-based microsensors</a><span class="pub-meta">Weltin A, Dornhof J … <strong>Joseph K</strong> · <em>IEEE BioSensors Conference</em> 2023</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41467-023-43201-6" target="_blank" rel="noopener noreferrer">High-sensitive spatially resolved T cell receptor sequencing with SPTCR-seq</a><span class="pub-meta">Benotmane JK, Kueckelhaus J … <strong>Joseph K</strong> … Schnell O · <em>Nature Communications</em> 2023</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.xpro.2023.102383" target="_blank" rel="noopener noreferrer">Isolation and profiling of viable tumor cells from human ex vivo glioblastoma cultures through single-cell transcriptomics</a><span class="pub-meta">Zhang J, Straehle J … <strong>Joseph K</strong> … Beck J · <em>STAR Protocols</em> 2023</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1093/neuonc/noad101" target="_blank" rel="noopener noreferrer">Sialic acid metabolism orchestrates transcellular connectivity and signaling in glioblastoma</a><span class="pub-meta">Kuliesiute U, <strong>Joseph K</strong> … Schnell O · <em>Neuro-Oncology</em> 2023</span></li></ol><h3 class="year">2022</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.15252/emmm.202115343" target="_blank" rel="noopener noreferrer">Lactate dehydrogenases promote glioblastoma growth and invasion via a metabolic symbiosis</a><span class="pub-meta">Guyon J, Fernandez‐Moncada I … <strong>Joseph K</strong> … Ravi VM · <em>EMBO Molecular Medicine</em> 2022</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41593-021-00951-0" target="_blank" rel="noopener noreferrer">Microglia contribute to the propagation of Aβ into unaffected brain tissue</a><span class="pub-meta">d’Errico P, Ziegler-Waldkirch S … <strong>Joseph K</strong> · <em>Nature Neuroscience</em> 2022</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.ccell.2022.05.009" target="_blank" rel="noopener noreferrer">Spatially resolved multi-omics deciphers bidirectional tumor-host interdependence in glioblastoma</a><span class="pub-meta">Ravi VM, Will P … <strong>Joseph K</strong> … Benotmane JK · <em>Cancer Cell</em> 2022</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41467-022-28523-1" target="_blank" rel="noopener noreferrer">T-cell dysfunction in the glioblastoma microenvironment is mediated by myeloid cells releasing interleukin-10</a><span class="pub-meta">Ravi VM, Neidert N … <strong>Joseph K</strong> … Scherer F · <em>Nature Communications</em> 2022</span></li></ol><h3 class="year">2021</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41419-021-03937-9" target="_blank" rel="noopener noreferrer">Inhibition of metabotropic glutamate receptor III facilitates sensitization to alkylating chemotherapeutics in glioblastoma</a><span class="pub-meta">Maier JP, Ravi VM … Pfeifer D · <em>Cell Death &amp; Disease</em> 2021</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1093/neuonc/noab092" target="_blank" rel="noopener noreferrer">Meclofenamate causes loss of cellular tethering and decoupling of functional networks in glioblastoma</a><span class="pub-meta">Schneider M, Vollmer L … Zurhorst D · <em>Neuro-Oncology</em> 2021</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.biomaterials.2021.121230" target="_blank" rel="noopener noreferrer">Transcriptional characterization of the glial response due to chronic neural implantation of flexible microprobes</a><span class="pub-meta"><strong>Joseph K</strong>, Kirsch M … Hofmann UG · <em>Biomaterials</em> 2021</span></li></ol><h3 class="year">2020</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1088/1741-2552/ab4c69" target="_blank" rel="noopener noreferrer">New life for old wires: electrochemical sensor method for neural implants</a><span class="pub-meta">Weltin A, Ganatra D … <strong>Joseph K</strong> … Kieninger J · <em>Journal of Neural Engineering</em> 2020</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1101/2020.10.20.346544" target="_blank" rel="noopener noreferrer">Inferring spatially transient gene expression pattern from spatial transcriptomic studies</a> <span class="pill">preprint</span><span class="pub-meta">Kueckelhaus J, von Ehr J … <strong>Joseph K</strong> … Heiland DH · <em>bioRxiv</em> 2020</span></li></ol><h3 class="year">2019</h3><ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.3390/cancers11101437" target="_blank" rel="noopener noreferrer">Astrogliosis releases pro-oncogenic chitinase 3-like 1 causing MAPK signaling in glioblastoma</a><span class="pub-meta">Wurm J, Behringer SP … <strong>Joseph K</strong> … Pfeifer D · <em>Cancers</em> 2019</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.26508/lsa.201900305" target="_blank" rel="noopener noreferrer">Human organotypic brain slice culture: a novel framework for environmental research in neuro-oncology</a><span class="pub-meta">Ravi VM, <strong>Joseph K</strong> … Sankowski R · <em>Life Science Alliance</em> 2019</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.3390/cancers11060858" target="_blank" rel="noopener noreferrer">Inhibition of gap junctions sensitizes primary glioblastoma cells for temozolomide</a><span class="pub-meta">Potthoff AL, Heiland DH … <strong>Joseph K</strong> … Pietsch T · <em>Cancers</em> 2019</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41598-019-42544-9" target="_blank" rel="noopener noreferrer">Quantitative synchrotron X-ray tomography of the material-tissue interface in rat cortex implanted with neural probes</a><span class="pub-meta">Böhm T, <strong>Joseph K</strong> … Hofmann UG · <em>Scientific Reports</em> 2019</span></li><li class="pub"><a class="pub-title" href="https://doi.org/10.1038/s41467-019-10493-6" target="_blank" rel="noopener noreferrer">Tumor-associated reactive astrocytes aid the evolution of immunosuppressive environment in glioblastoma</a><span class="pub-meta">Henrik Heiland D, Ravi VM … <strong>Joseph K</strong> … Grauvogel J · <em>Nature Communications</em> 2019</span></li></ol>
-        </details>
-      </section>
-      <section id="software" class="section">
-        <h2>Software</h2>
-        <p>Open-source tools from me and the lab. Rust where speed and single-binary deployment matter, R and Python where the ecosystem lives.</p>
-        <h3>Rust tools for bioinformatics</h3>
-        <table class="tools">
-          <thead><tr><th scope="col">Tool</th><th scope="col">What it does</th></tr></thead>
-          <tbody>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/karna" target="_blank" rel="noopener noreferrer">karna</a></th><td>Out-of-core, auditable compute engine for transcriptomic analysis</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/kaRna_R" target="_blank" rel="noopener noreferrer">kaRna_R</a></th><td>Rust accelerator for Seurat: one line, same code, faster pipeline</td></tr>
-            <tr><th scope="row"><a href="https://github.com/kevinj24fr/karnaplot" target="_blank" rel="noopener noreferrer">karnaplot</a></th><td>The visualization layer for karna</td></tr>
-            <tr><th scope="row"><a href="https://github.com/kevinj24fr/h5utils" target="_blank" rel="noopener noreferrer">h5utils</a></th><td>Operate on h5ad (AnnData) files without full materialization</td></tr>
-            <tr><th scope="row"><a href="https://github.com/kevinj24fr/peek-series" target="_blank" rel="noopener noreferrer">peek-series</a></th><td>A deterministic inspection layer for bioinformatics file formats</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/atman" target="_blank" rel="noopener noreferrer">atman</a></th><td>Proteomics analysis in Rust</td></tr>
-            <tr><th scope="row"><a href="https://github.com/kevinj24fr/mpx2nwb" target="_blank" rel="noopener noreferrer">mpx2nwb</a></th><td>Convert Alpha Omega AlphaLab SnR <code>.mpx</code> electrophysiology recordings to NWB 2.7</td></tr>
-          </tbody>
-        </table>
-        <h3>Lab analysis packages</h3>
-        <table class="tools">
-          <thead><tr><th scope="col">Package</th><th scope="col">What it does</th></tr></thead>
-          <tbody>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/MicroFace" target="_blank" rel="noopener noreferrer">MicroFace</a> / <a href="https://github.com/3DBMandNE-Lab/Py_Microface" target="_blank" rel="noopener noreferrer">Py_Microface</a></th><td>Segmentation and morphometry of microglia from IBA1 immunofluorescence, single cell to morphometric analysis</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/GliomaEcology" target="_blank" rel="noopener noreferrer">GliomaEcology</a></th><td>Tumor microenvironments as ecological systems: spatial analytics and network theory for single-cell imaging data</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/SpatialNiches" target="_blank" rel="noopener noreferrer">SpatialNiches</a></th><td>Spatial niche analysis functions for transcriptomic data</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/scTranscripto" target="_blank" rel="noopener noreferrer">scTranscripto</a></th><td>R package for single-cell and single-nucleus transcriptomic analysis</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/scElectro" target="_blank" rel="noopener noreferrer">scElectro</a></th><td>Analysis of spatially resolved electrophysiology data</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/stTrace_R" target="_blank" rel="noopener noreferrer">stTrace_R</a></th><td>Implementation of the stTrace algorithm for spatially transient gene expression</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/FreiSpec" target="_blank" rel="noopener noreferrer">FreiSpec</a></th><td>Spectroscopy analysis for FTIR data</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/FastQRescue" target="_blank" rel="noopener noreferrer">FastQRescue</a></th><td>Rescue corrupted FASTQ.gz files from 10x single-cell runs with index detection and barcode preservation</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/cloupe-to-10x" target="_blank" rel="noopener noreferrer">cloupe-to-10x</a></th><td>Convert 10x Loupe Browser files to Seurat-compatible formats</td></tr>
-            <tr><th scope="row"><a href="https://github.com/3DBMandNE-Lab/Sequencing_3DBM" target="_blank" rel="noopener noreferrer">Sequencing_3DBM</a></th><td>macOS-optimized pipeline from raw reads to count matrices</td></tr>
-          </tbody>
-        </table>
-        <p class="more"><a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">All lab repositories →</a> · <a href="https://github.com/kevinj24fr?tab=repositories" target="_blank" rel="noopener noreferrer">My repositories →</a></p>
-      </section>
-      <section id="expertise" class="section">
-        <h2>Expertise</h2>
-        <div class="grid two">
-          <div>
-            <h3>Computational</h3>
-            <ul class="plain">
-              <li><strong>Rust</strong> — production systems for scientific data processing, CLI tooling, pipeline orchestration</li>
-              <li><strong>R</strong> — transcriptomics, genomics, spectroscopy</li>
-              <li><strong>Python</strong> — PyTorch, scVI, Pyro, Scanpy</li>
-              <li><strong>Graph modeling</strong> — PyG, NetworkX</li>
-              <li><strong>Machine learning</strong> — VAEs, interpretable ML (SHAP, integrated gradients), prototype learning</li>
-              <li><strong>Spatial analysis</strong> — <a href="https://github.com/3DBMandNE-Lab/karna" target="_blank" rel="noopener noreferrer">karna</a></li>
-              <li><strong>Signal processing</strong> — electrophysiology, calcium imaging, spectroscopy</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Biological</h3>
-            <p class="tags large">
-              <span>Glioblastoma biology</span>
-              <span>Brain tumor microenvironment</span>
-              <span>Fibrosis &amp; ECM remodeling</span>
-              <span>Trauma-induced CNS responses</span>
-              <span>Neuroimmune interactions</span>
-              <span>Single-cell &amp; spatial transcriptomics</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="collaborate" class="section">
-        <h2>Collaborate</h2>
-        <p>I am open to collaborations with:</p>
-        <div class="grid cards compact">
-          <article class="card"><h3>Postdocs &amp; ML scientists</h3><p>interested in building new methods</p></article>
-          <article class="card"><h3>Biologists</h3><p>eager to drive computational innovation</p></article>
-          <article class="card"><h3>Clinicians</h3><p>exploring AI-driven translational tools</p></article>
-          <article class="card"><h3>Industry partners</h3><p>interested in neuroscience &amp; digital twins</p></article>
-        </div>
-        <p class="more"><a href="mailto:kevin.joseph@uniklinik-freiburg.de">Get in touch →</a></p>
-      </section>
-
+  <section id="tools" class="sec">
+    <div class="sec-head"><span class="num mono">03</span><h2>Tools</h2></div>
+    <p class="intro">Open-source, mostly Rust, built because the existing route was slow or loaded everything into memory. Each line is the command as you would actually type it.</p>
+    <div class="tool-list">
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/karna" target="_blank" rel="noopener noreferrer">karna</a><span class="tool-what">Transcriptomic analysis engine. Single-cell, spatial, bulk, cross-condition. Out-of-core, seeded, content-addressed provenance DAG.</span></div>
+        <pre><code>karna pipeline -i data.h5ad -o results/</code>
+<code>karna spatial-map --reference results/ --query visium_sample/ --obs-column cell_type -o spatial/</code></pre>
+        <p class="tool-note mono">marker FC vs Seurat r = 1.000 · GBMap 338K cells in 4 min vs 25</p>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/h5utils" target="_blank" rel="noopener noreferrer">h5utils</a><span class="tool-what">Query, validate, subset, split, merge, diff h5ad files without ever loading X.</span></div>
+        <pre><code>h5utils query atlas.h5ad --obs --columns cell_type --value-counts</code>
+<code>h5utils subset atlas.h5ad --genes markers.txt -o subset.h5ad</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/peek-series" target="_blank" rel="noopener noreferrer">peek-series</a><span class="tool-what">Twelve CLIs that read headers or stream one pass over FASTQ, BAM, VCF, BED, GTF, 10x, h5ad, CSV, JSON. Cost stays bounded with file size.</span></div>
+        <pre><code>peek sample.bam            # auto-detects the format</code>
+<code>fqpeek reads.fq.gz --json</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/atman" target="_blank" rel="noopener noreferrer">atman</a><span class="tool-what">Proteomics from Olink, SomaScan, MaxQuant, DIA-NN or Spectronaut, same commands on all of them. Every command writes a SHA-256 sidecar.</span></div>
+        <pre><code>atman ingest-matrix --matrix protein_groups.tsv --samples sample_metadata.tsv --output-dir out</code>
+<code>atman de --input-dir out --output-dir out --test welch-t --groups Case-Control</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/mpx2nwb" target="_blank" rel="noopener noreferrer">mpx2nwb</a><span class="tool-what">Alpha Omega <code>.mpx</code> electrophysiology to NWB 2.7, in one step instead of three Python packages.</span></div>
+        <pre><code>mpx2nwb --batch ./raw --outdir ./nwb --subject-field 2 --jobs 5</code></pre>
+        <p class="tool-note mono">3.6× compression · merges split segments · refuses to merge across gaps</p>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/MicroFace" target="_blank" rel="noopener noreferrer">MicroFace</a> / <a class="mono" href="https://github.com/3DBMandNE-Lab/Py_Microface" target="_blank" rel="noopener noreferrer">Py_Microface</a><span class="tool-what">Segmentation and morphometry of microglia from IBA1 images: 79 parameters per cell, 400,000 cells, four phenotypes, three injury zones. The method behind the iScience paper.</span></div>
+      </div>
     </div>
-  </main>
+    <p class="also">Also: <a href="https://github.com/3DBMandNE-Lab/kaRna_R" target="_blank" rel="noopener noreferrer">kaRna_R</a> (karna as a Seurat accelerator), <a href="https://github.com/kevinj24fr/karnaplot" target="_blank" rel="noopener noreferrer">karnaplot</a>, <a href="https://github.com/3DBMandNE-Lab/GliomaEcology" target="_blank" rel="noopener noreferrer">GliomaEcology</a>, <a href="https://github.com/3DBMandNE-Lab/SpatialNiches" target="_blank" rel="noopener noreferrer">SpatialNiches</a>, <a href="https://github.com/3DBMandNE-Lab/scElectro" target="_blank" rel="noopener noreferrer">scElectro</a>, <a href="https://github.com/3DBMandNE-Lab/stTrace_R" target="_blank" rel="noopener noreferrer">stTrace_R</a>, <a href="https://github.com/3DBMandNE-Lab/FreiSpec" target="_blank" rel="noopener noreferrer">FreiSpec</a>, <a href="https://github.com/3DBMandNE-Lab/FastQRescue" target="_blank" rel="noopener noreferrer">FastQRescue</a>, <a href="https://github.com/3DBMandNE-Lab/cloupe-to-10x" target="_blank" rel="noopener noreferrer">cloupe-to-10x</a>. Everything else is on <a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">the lab org</a> and <a href="https://github.com/kevinj24fr?tab=repositories" target="_blank" rel="noopener noreferrer">my profile</a>.</p>
+  </section>
 
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p>© <span id="year">2026</span> Kevin Joseph · Medical Center – University of Freiburg</p>
-      <p class="footer-links">
-        <a href="mailto:kevin.joseph@uniklinik-freiburg.de">Email</a> ·
-        <a href="https://github.com/kevinj24fr" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-        <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a> ·
-        <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> ·
-        <a href="https://www.linkedin.com/in/josephkevin" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-        <a href="https://github.com/kevinj24fr/kevinj24fr.github.io" target="_blank" rel="noopener noreferrer">Source</a>
-      </p>
+  <section id="papers" class="sec">
+    <div class="sec-head"><span class="num mono">04</span><h2>Papers</h2></div>
+    <p class="intro">37 peer-reviewed papers and preprints since 2019, each linked to its DOI. Conference abstracts are left out. The complete record is on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
+    <div class="pubs">
+<div class="yr"><div class="yr-label mono">2026</div><ol><li><a href="https://doi.org/10.1016/j.bas.2026.106856" target="_blank" rel="noopener noreferrer">Immune Microenvironment Profiling Reveals Grade-Independent Subgroups and a Selective T Cell Recruitment Deficit in Meningioma</a><span class="meta">Nurellari K, Mohammed AO … Grauvogel J · <i>Brain and Spine</i></span></li><li><a href="https://doi.org/10.1016/j.bioadv.2026.215226" target="_blank" rel="noopener noreferrer">Injection-free, spatially controlled delivery of glioblastoma cells to human brain slice cultures using soft cryogel biomaterials</a><span class="meta">Hill S, Mohammed AO … Werner C · <i>Biomaterials Advances</i></span></li><li><a href="https://doi.org/10.1016/j.isci.2026.116485" target="_blank" rel="noopener noreferrer">MicroFace maps microglial morphology remodeling, revealing spatial zones and bifurcated trajectories during brain microinjury recovery</a><span class="meta">Jariwala VD, Ponnamma S … <b>Joseph K</b> · <i>iScience</i></span></li><li><a href="https://doi.org/10.1371/journal.pone.0351819" target="_blank" rel="noopener noreferrer">Riboflavin-sensitized UVA collagen crosslinking produced a controllable, dose-dependent increase in the nanomechanical strength of ex vivo bovine dura mater</a><span class="meta">Vasilikos I, Swamy SM … Shah MJ · <i>PLOS ONE</i></span></li><li><a href="https://doi.org/10.1016/j.ccell.2026.08.005" target="_blank" rel="noopener noreferrer">Spatial analysis reveals the evolving organization of IDH-mutant glioma</a><span class="meta">Hoefflin R, Greenwald AC … Goliand I · <i>Cancer Cell</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noag220" target="_blank" rel="noopener noreferrer">Spatially restricted iron-metabolism-associated stress programs prime invasive mesenchymal glioblastoma states in human tissue-context models</a><span class="meta">Petry C, Boecke AS … Vlachos A · <i>Neuro-Oncology</i></span></li><li><a href="https://doi.org/10.64898/2026.02.26.707379" target="_blank" rel="noopener noreferrer">Hypoxia and Associated Acidosis Generate Cell-Type Specific Myeloid Responses in Glioblastoma</a> <span class="tag">preprint</span><span class="meta">Tiihonen AM, Salonen I … Mäntylä S · <i>bioRxiv</i></span></li><li><a href="https://doi.org/10.64898/2026.03.19.712876" target="_blank" rel="noopener noreferrer">In Search for Biomarkers Reflecting Neural Implant-Induced Tissue Response Dynamics</a> <span class="tag">preprint</span><span class="meta">Sharbatian A, <b>Joseph K</b> … Ashouri D · <i>bioRxiv</i></span></li><li><a href="https://doi.org/10.64898/2026.05.31.729105" target="_blank" rel="noopener noreferrer">Spatially confined niches support hypoxia-associated transcriptional plasticity contributing to malignant progression in IDH-mutant gliomas</a> <span class="tag">preprint</span><span class="meta">Das D, Pandele A … Shhab MA · <i>bioRxiv</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2025</div><ol><li><a href="https://doi.org/10.1177/15910199251339537" target="_blank" rel="noopener noreferrer">Autologous platelet-rich fibrin as an alternative epidural patch for persistent post-dural puncture headache: A single-center observational study</a><span class="meta">Vasilikos I, Argiti K … <b>Joseph K</b> … Beck J · <i>Interventional Neuroradiology</i></span></li><li><a href="https://doi.org/10.1016/j.bas.2025.105635" target="_blank" rel="noopener noreferrer">Feasibility and safety of cortical access point biopsy during hydrocephalus shunt surgery</a><span class="meta">Amirah R, Kim DB … <b>Joseph K</b> … Beck J · <i>Brain and Spine</i></span></li><li><a href="https://doi.org/10.26508/lsa.202403160" target="_blank" rel="noopener noreferrer">Human brain slice cultures: translational applications and ethical considerations</a><span class="meta"><b>Joseph K</b>, Vasilikos I … Fistouris P · <i>Life Science Alliance</i></span></li><li><a href="https://doi.org/10.1038/s41556-024-01583-9" target="_blank" rel="noopener noreferrer">Mapping the developmental trajectory of human astrocytes reveals divergence in glioblastoma</a><span class="meta">Sojka C, Wang HLV … <b>Joseph K</b> · <i>Nature Cell Biology</i></span></li><li><a href="https://doi.org/10.1371/journal.pone.0319349" target="_blank" rel="noopener noreferrer">Platelet rich fibrin and commercial sealants for dural closure in neurosurgery: an in vitro study</a><span class="meta">Argiti K, Shah MJ … <b>Joseph K</b> … Rölz R · <i>PLOS ONE</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noaf160" target="_blank" rel="noopener noreferrer">Proneural–mesenchymal hybrid glioblastoma cells are resistant to therapy and dependent on nuclear import</a><span class="meta">Bourmeau G, Anezo O … Moutaux E · <i>Neuro-Oncology</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2024</div><ol><li><a href="https://doi.org/10.3389/fsurg.2024.1500158" target="_blank" rel="noopener noreferrer">Platelet rich fibrin three-layer reconstruction of the sellar floor after endoscopic endonasal transsphenoidal approach: technical note and initial experience</a><span class="meta">Shah MJ, Argiti K … <b>Joseph K</b> … Beck J · <i>Frontiers in Surgery</i></span></li><li><a href="https://doi.org/10.1038/s41419-024-07056-z" target="_blank" rel="noopener noreferrer">SMAC mimetic drives microglia phenotype and glioblastoma immune microenvironment</a><span class="meta">Snacel-Fazy E, Soubéran A … <b>Joseph K</b> … Debarbieux F · <i>Cell Death &amp; Disease</i></span></li><li><a href="https://doi.org/10.1038/s41467-024-47985-z" target="_blank" rel="noopener noreferrer">VC-resist glioblastoma cell state: vessel co-option as a key driver of chemoradiation resistance</a><span class="meta">Pichol-Thievend C, Anezo O … Blanchard B · <i>Nature Communications</i></span></li><li><a href="https://doi.org/10.1038/s42003-024-07144-y" target="_blank" rel="noopener noreferrer">ZBTB18 regulates cytokine expression and affects microglia/macrophage recruitment and commitment in glioblastoma</a><span class="meta">Ferrarese R, <b>Joseph K</b> … Prinz M · <i>Communications Biology</i></span></li></ol></div>
     </div>
-  </footer>
+    <details class="older">
+      <summary class="mono">show 2019–2023 (18 more)</summary>
+      <div class="pubs">
+<div class="yr"><div class="yr-label mono">2023</div><ol><li><a href="https://doi.org/10.1109/biosensors58001.2023.10280915" target="_blank" rel="noopener noreferrer">Determination of patient-derived brain cancer cell respiration rates with chip-based microsensors</a><span class="meta">Weltin A, Dornhof J … <b>Joseph K</b> · <i>IEEE BioSensors Conference</i></span></li><li><a href="https://doi.org/10.1038/s41467-023-43201-6" target="_blank" rel="noopener noreferrer">High-sensitive spatially resolved T cell receptor sequencing with SPTCR-seq</a><span class="meta">Benotmane JK, Kueckelhaus J … <b>Joseph K</b> … Schnell O · <i>Nature Communications</i></span></li><li><a href="https://doi.org/10.1016/j.xpro.2023.102383" target="_blank" rel="noopener noreferrer">Isolation and profiling of viable tumor cells from human ex vivo glioblastoma cultures through single-cell transcriptomics</a><span class="meta">Zhang J, Straehle J … <b>Joseph K</b> … Beck J · <i>STAR Protocols</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noad101" target="_blank" rel="noopener noreferrer">Sialic acid metabolism orchestrates transcellular connectivity and signaling in glioblastoma</a><span class="meta">Kuliesiute U, <b>Joseph K</b> … Schnell O · <i>Neuro-Oncology</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2022</div><ol><li><a href="https://doi.org/10.15252/emmm.202115343" target="_blank" rel="noopener noreferrer">Lactate dehydrogenases promote glioblastoma growth and invasion via a metabolic symbiosis</a><span class="meta">Guyon J, Fernandez‐Moncada I … <b>Joseph K</b> … Ravi VM · <i>EMBO Molecular Medicine</i></span></li><li><a href="https://doi.org/10.1038/s41593-021-00951-0" target="_blank" rel="noopener noreferrer">Microglia contribute to the propagation of Aβ into unaffected brain tissue</a><span class="meta">d’Errico P, Ziegler-Waldkirch S … <b>Joseph K</b> · <i>Nature Neuroscience</i></span></li><li><a href="https://doi.org/10.1016/j.ccell.2022.05.009" target="_blank" rel="noopener noreferrer">Spatially resolved multi-omics deciphers bidirectional tumor-host interdependence in glioblastoma</a><span class="meta">Ravi VM, Will P … <b>Joseph K</b> … Benotmane JK · <i>Cancer Cell</i></span></li><li><a href="https://doi.org/10.1038/s41467-022-28523-1" target="_blank" rel="noopener noreferrer">T-cell dysfunction in the glioblastoma microenvironment is mediated by myeloid cells releasing interleukin-10</a><span class="meta">Ravi VM, Neidert N … <b>Joseph K</b> … Scherer F · <i>Nature Communications</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2021</div><ol><li><a href="https://doi.org/10.1038/s41419-021-03937-9" target="_blank" rel="noopener noreferrer">Inhibition of metabotropic glutamate receptor III facilitates sensitization to alkylating chemotherapeutics in glioblastoma</a><span class="meta">Maier JP, Ravi VM … Pfeifer D · <i>Cell Death &amp; Disease</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noab092" target="_blank" rel="noopener noreferrer">Meclofenamate causes loss of cellular tethering and decoupling of functional networks in glioblastoma</a><span class="meta">Schneider M, Vollmer L … Zurhorst D · <i>Neuro-Oncology</i></span></li><li><a href="https://doi.org/10.1016/j.biomaterials.2021.121230" target="_blank" rel="noopener noreferrer">Transcriptional characterization of the glial response due to chronic neural implantation of flexible microprobes</a><span class="meta"><b>Joseph K</b>, Kirsch M … Hofmann UG · <i>Biomaterials</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2020</div><ol><li><a href="https://doi.org/10.1088/1741-2552/ab4c69" target="_blank" rel="noopener noreferrer">New life for old wires: electrochemical sensor method for neural implants</a><span class="meta">Weltin A, Ganatra D … <b>Joseph K</b> … Kieninger J · <i>Journal of Neural Engineering</i></span></li><li><a href="https://doi.org/10.1101/2020.10.20.346544" target="_blank" rel="noopener noreferrer">Inferring spatially transient gene expression pattern from spatial transcriptomic studies</a> <span class="tag">preprint</span><span class="meta">Kueckelhaus J, von Ehr J … <b>Joseph K</b> … Heiland DH · <i>bioRxiv</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2019</div><ol><li><a href="https://doi.org/10.3390/cancers11101437" target="_blank" rel="noopener noreferrer">Astrogliosis releases pro-oncogenic chitinase 3-like 1 causing MAPK signaling in glioblastoma</a><span class="meta">Wurm J, Behringer SP … <b>Joseph K</b> … Pfeifer D · <i>Cancers</i></span></li><li><a href="https://doi.org/10.26508/lsa.201900305" target="_blank" rel="noopener noreferrer">Human organotypic brain slice culture: a novel framework for environmental research in neuro-oncology</a><span class="meta">Ravi VM, <b>Joseph K</b> … Sankowski R · <i>Life Science Alliance</i></span></li><li><a href="https://doi.org/10.3390/cancers11060858" target="_blank" rel="noopener noreferrer">Inhibition of gap junctions sensitizes primary glioblastoma cells for temozolomide</a><span class="meta">Potthoff AL, Heiland DH … <b>Joseph K</b> … Pietsch T · <i>Cancers</i></span></li><li><a href="https://doi.org/10.1038/s41598-019-42544-9" target="_blank" rel="noopener noreferrer">Quantitative synchrotron X-ray tomography of the material-tissue interface in rat cortex implanted with neural probes</a><span class="meta">Böhm T, <b>Joseph K</b> … Hofmann UG · <i>Scientific Reports</i></span></li><li><a href="https://doi.org/10.1038/s41467-019-10493-6" target="_blank" rel="noopener noreferrer">Tumor-associated reactive astrocytes aid the evolution of immunosuppressive environment in glioblastoma</a><span class="meta">Henrik Heiland D, Ravi VM … <b>Joseph K</b> … Grauvogel J · <i>Nature Communications</i></span></li></ol></div>
+      </div>
+    </details>
+  </section>
 
-  <script src="assets/js/main.js"></script>
+  <section id="off" class="sec">
+    <div class="sec-head"><span class="num mono">05</span><h2>Off the clock</h2></div>
+    <p>I keep the same rules at home. There is a climate model of the Earth built one mechanism at a time in dependency-free Rust against ice-core and isotope records, to find out which conclusions the physics forces and which depend on parameter choices. There is also a USB enclosure that fails to enumerate past two drives, with a defect report and a driver in progress. Neither pays, both teach.</p>
+  </section>
+
+  <section id="contact" class="sec">
+    <div class="sec-head"><span class="num mono">06</span><h2>Working together</h2></div>
+    <p>Open to collaborations with postdocs and ML scientists who want to build methods rather than apply them, biologists and clinicians with a question and tissue to go with it, and industry partners in neurotechnology or digital twins of the brain. Write to <a href="mailto:kevin.joseph@uniklinik-freiburg.de">kevin.joseph@uniklinik-freiburg.de</a>. Short emails get short answers, quickly.</p>
+  </section>
+
+</div>
+</main>
+
+<footer class="foot mono">
+  <div class="wrap">
+    <p>static html · one css file · 20 lines of js · no analytics · no cookies · <a href="https://github.com/kevinj24fr/kevinj24fr.github.io" target="_blank" rel="noopener noreferrer">source</a></p>
+    <p>© <span id="year">2026</span> Kevin Joseph · last updated 2026-10-22</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>

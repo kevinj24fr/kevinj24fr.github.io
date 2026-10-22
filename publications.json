@@ -1,0 +1,724 @@
+[
+ {
+  "year": 2026,
+  "title": "Immune Microenvironment Profiling Reveals Grade-Independent Subgroups and a Selective T Cell Recruitment Deficit in Meningioma",
+  "authors": [
+   "Nurellari, Klejdi",
+   "Mohammed, Aso Omer",
+   "Al Shhab, Mohammed",
+   "Ghariwala, Nishita",
+   "Fistouris, Panagiotis",
+   "Goth, Michel",
+   "Jungwirth, Gerhard",
+   "Juratli, Tareq",
+   "Prinz, Marco",
+   "Grauvogel, Jürgen"
+  ],
+  "journal": "Brain and Spine",
+  "preprint": false,
+  "doi": "10.1016/j.bas.2026.106856",
+  "cr_journal": "Brain and Spine"
+ },
+ {
+  "year": 2026,
+  "title": "Injection-free, spatially controlled delivery of glioblastoma cells to human brain slice cultures using soft cryogel biomaterials",
+  "authors": [
+   "Hill, Sophie",
+   "Mohammed, Aso Omer",
+   "Ganser, Laurin",
+   "Sarker, Sabarni",
+   "Wang, Yu",
+   "Mammadsalahova, Pakiza",
+   "Al Shhab, Mohammad",
+   "Fertala, Nicole",
+   "Welzel, Petra B",
+   "Werner, Carsten"
+  ],
+  "journal": "Biomaterials Advances",
+  "preprint": false,
+  "doi": "10.1016/j.bioadv.2026.215226",
+  "cr_journal": "Biomaterials Advances"
+ },
+ {
+  "year": 2026,
+  "title": "MicroFace maps microglial morphology remodeling, revealing spatial zones and bifurcated trajectories during brain microinjury recovery",
+  "authors": [
+   "Jariwala, Vatsal D",
+   "Ponnamma, Shreya",
+   "Ravi, Vidhya M",
+   "Beck, Jürgen",
+   "Hofmann, Ulrich G",
+   "Joseph, Kevin"
+  ],
+  "journal": "Iscience",
+  "preprint": false,
+  "doi": "10.1016/j.isci.2026.116485",
+  "cr_journal": "iScience"
+ },
+ {
+  "year": 2026,
+  "title": "Riboflavin-sensitized UVA collagen crosslinking produced a controllable, dose-dependent increase in the nanomechanical strength of ex vivo bovine dura mater",
+  "authors": [
+   "Vasilikos, Ioannis",
+   "Swamy, Sukesh Mysore",
+   "Hofmann, Ulrich G",
+   "Hubbe, Ulrich",
+   "Rölz, Roland",
+   "Stathi, Angeliki",
+   "Wolk, Katerina",
+   "Strahnen, Daniel",
+   "El Rahal, Amir",
+   "Shah, Mukesch J"
+  ],
+  "journal": "PLoS One",
+  "preprint": false,
+  "doi": "10.1371/journal.pone.0351819",
+  "cr_journal": "PLOS One"
+ },
+ {
+  "year": 2026,
+  "title": "Spatial analysis reveals the evolving organization of IDH-mutant glioma",
+  "authors": [
+   "Hoefflin, Rouven",
+   "Greenwald, Alissa C",
+   "Darnell, Noam Galili",
+   "Mount, Christopher W",
+   "Tiomkin, Yali",
+   "Castro, L Nicolas Gonzalez",
+   "Wen, Zebin",
+   "Simkin, Dor",
+   "Patterson, Angelica B",
+   "Goliand, Inna"
+  ],
+  "journal": "Cancer cell",
+  "preprint": false,
+  "doi": "10.1016/j.ccell.2026.08.005",
+  "cr_journal": "Cancer Cell"
+ },
+ {
+  "year": 2026,
+  "title": "Spatially restricted iron-metabolism-associated stress programs prime invasive mesenchymal glioblastoma states in human tissue-context models",
+  "authors": [
+   "Petry, Christophe",
+   "Boecke, Ambra-Stella",
+   "Mohammed, Aso Omer",
+   "Ghariwala, Nishita S",
+   "Jariwala, Vatsal D",
+   "Shhab, Mohammad Al",
+   "Buchholz, Oliver",
+   "Vasilikos, Ioannis",
+   "Nakagawa, Julia M",
+   "Vlachos, Andreas"
+  ],
+  "journal": "Neuro-Oncology",
+  "preprint": false,
+  "doi": "10.1093/neuonc/noag220",
+  "cr_journal": "Neuro-Oncology"
+ },
+ {
+  "year": 2026,
+  "title": "Hypoxia and Associated Acidosis Generate Cell-Type Specific Myeloid Responses in Glioblastoma",
+  "authors": [
+   "Tiihonen, Aliisa M",
+   "Salonen, Iida",
+   "Koivisto, Iina",
+   "Ritamäki, Anni S",
+   "Jaatinen, Serafiina",
+   "Hyvärinen, Tanja",
+   "Tilvis, Johanna",
+   "Kreutzer, Joose M",
+   "Karabiyik, Göktug",
+   "Mäntylä, Sonja"
+  ],
+  "journal": "bioRxiv",
+  "preprint": true,
+  "doi": "10.64898/2026.02.26.707379",
+  "cr_journal": ""
+ },
+ {
+  "year": 2026,
+  "title": "In Search for Biomarkers Reflecting Neural Implant-Induced Tissue Response Dynamics",
+  "authors": [
+   "Sharbatian, Ali",
+   "Joseph, Kevin",
+   "Hofmann, Ulrich G",
+   "Coenen, Volker A",
+   "Stieglitz, Thomas",
+   "Ashouri, Danesh"
+  ],
+  "journal": "bioRxiv",
+  "preprint": true,
+  "doi": "10.64898/2026.03.19.712876",
+  "cr_journal": ""
+ },
+ {
+  "year": 2026,
+  "title": "Spatially confined niches support hypoxia-associated transcriptional plasticity contributing to malignant progression in IDH-mutant gliomas",
+  "authors": [
+   "Das, Depro",
+   "Pandele, Alina",
+   "Jariwala, Vatsal D",
+   "Ghariwala, Nishita S",
+   "Mohammed, Aso O",
+   "Das, Tonmoy",
+   "Krolla, Christopher",
+   "Arosh, Saif Mukramoon",
+   "Hossain, Naiem",
+   "Shhab, Mohammad Al"
+  ],
+  "journal": "bioRxiv",
+  "preprint": true,
+  "doi": "10.64898/2026.05.31.729105",
+  "cr_journal": ""
+ },
+ {
+  "year": 2025,
+  "title": "Autologous platelet-rich fibrin as an alternative epidural patch for persistent post-dural puncture headache: A single-center observational study",
+  "authors": [
+   "Vasilikos, Ioannis",
+   "Argiti, Katerina",
+   "Joseph, Kevin",
+   "Strahnen, Daniel",
+   "Stathi, Angeliki",
+   "Rahal, Amir El",
+   "Volz, Florian",
+   "Wolf, Katharina",
+   "Shah, Mukesch Johannes",
+   "Beck, Jürgen"
+  ],
+  "journal": "Interventional Neuroradiology",
+  "preprint": false,
+  "doi": "10.1177/15910199251339537",
+  "cr_journal": "Interventional Neuroradiology"
+ },
+ {
+  "year": 2025,
+  "title": "Feasibility and safety of cortical access point biopsy during hydrocephalus shunt surgery",
+  "authors": [
+   "Amirah, Ramy",
+   "Kim, Da Bin",
+   "Pinar, Maida",
+   "Krismer, Laura",
+   "Erny, Daniel",
+   "Schwabenland, Marius",
+   "Prinz, Marco",
+   "Ravi, Vidhya Madapusi",
+   "Joseph, Kevin",
+   "Beck, Jürgen"
+  ],
+  "journal": "Brain and Spine",
+  "preprint": false,
+  "doi": "10.1016/j.bas.2025.105635",
+  "cr_journal": "Brain and Spine"
+ },
+ {
+  "year": 2025,
+  "title": "Human brain slice cultures: translational applications and ethical considerations",
+  "authors": [
+   "Joseph, Kevin",
+   "Vasilikos, Ioannis",
+   "Grauvogel, Juergen",
+   "Shah, Mukesch Johannes",
+   "Reinacher, Peter C",
+   "Nakagawa, Julia M",
+   "Häussler, Ute",
+   "Straehle, Jakob",
+   "Neidert, Nicolas N",
+   "Fistouris, Panagiotis"
+  ],
+  "journal": "Life science alliance",
+  "preprint": false,
+  "doi": "10.26508/lsa.202403160",
+  "cr_journal": "Life Science Alliance"
+ },
+ {
+  "year": 2025,
+  "title": "Mapping the developmental trajectory of human astrocytes reveals divergence in glioblastoma",
+  "authors": [
+   "Sojka, Caitlin",
+   "Wang, Hsiao-Lin V",
+   "Bhatia, Tarun N",
+   "Li, Yangping",
+   "Chopra, Pankaj",
+   "Sing, Anson",
+   "Voss, Anna",
+   "King, Alexia",
+   "Wang, Feng",
+   "Joseph, Kevin"
+  ],
+  "journal": "Nature cell biology",
+  "preprint": false,
+  "doi": "10.1038/s41556-024-01583-9",
+  "cr_journal": "Nature Cell Biology"
+ },
+ {
+  "year": 2025,
+  "title": "Platelet rich fibrin and commercial sealants for dural closure in neurosurgery: an in vitro study",
+  "authors": [
+   "Argiti, Katerina",
+   "Shah, Mukesch J",
+   "Joseph, Kevin",
+   "Ravi, Vidhya M",
+   "Stathi, Angeliki",
+   "Volz, Florian",
+   "El Rahal, Amir",
+   "Strahnen, Daniel",
+   "Grauvogel, Jürgen",
+   "Rölz, Roland"
+  ],
+  "journal": "Plos one",
+  "preprint": false,
+  "doi": "10.1371/journal.pone.0319349",
+  "cr_journal": "PLOS ONE"
+ },
+ {
+  "year": 2025,
+  "title": "Proneural–mesenchymal hybrid glioblastoma cells are resistant to therapy and dependent on nuclear import",
+  "authors": [
+   "Bourmeau, Guillaume",
+   "Anezo, Oceane",
+   "Raymond, Jeremy",
+   "Ballestín, Alberto",
+   "Pichol-Thievend, Cathy",
+   "Reveilles, Juliette",
+   "Thomas, Adrien",
+   "Wang, Lin",
+   "Miranda, Melanie",
+   "Moutaux, Eve"
+  ],
+  "journal": "Neuro-Oncology",
+  "preprint": false,
+  "doi": "10.1093/neuonc/noaf160",
+  "cr_journal": "Neuro-Oncology"
+ },
+ {
+  "year": 2024,
+  "title": "Platelet rich fibrin three-layer reconstruction of the sellar floor after endoscopic endonasal transsphenoidal approach: technical note and initial experience",
+  "authors": [
+   "Shah, Mukesch Johannes",
+   "Argiti, Katerina",
+   "Nakagawa, Julia M",
+   "Stathi, Angeliki",
+   "Schönen, Emilia",
+   "Strahnen, Daniel",
+   "Joseph, Kevin",
+   "Straehle, Jakob",
+   "Neidert, Nicolas",
+   "Beck, Jürgen"
+  ],
+  "journal": "Frontiers in Surgery",
+  "preprint": false,
+  "doi": "10.3389/fsurg.2024.1500158",
+  "cr_journal": "Frontiers in Surgery"
+ },
+ {
+  "year": 2024,
+  "title": "SMAC mimetic drives microglia phenotype and glioblastoma immune microenvironment",
+  "authors": [
+   "Snacel-Fazy, Emmanuel",
+   "Soubéran, Aurélie",
+   "Grange, Magali",
+   "Joseph, Kevin",
+   "Colin, Carole",
+   "Morando, Philippe",
+   "Luche, Hervé",
+   "Pagano, Alessandra",
+   "Brustlein, Sophie",
+   "Debarbieux, Franck"
+  ],
+  "journal": "Cell death & disease",
+  "preprint": false,
+  "doi": "10.1038/s41419-024-07056-z",
+  "cr_journal": "Cell Death &amp; Disease"
+ },
+ {
+  "year": 2024,
+  "title": "VC-resist glioblastoma cell state: vessel co-option as a key driver of chemoradiation resistance",
+  "authors": [
+   "Pichol-Thievend, Cathy",
+   "Anezo, Oceane",
+   "Pettiwala, Aafrin M",
+   "Bourmeau, Guillaume",
+   "Montagne, Remi",
+   "Lyne, Anne-Marie",
+   "Guichet, Pierre-Olivier",
+   "Deshors, Pauline",
+   "Ballestín, Alberto",
+   "Blanchard, Benjamin"
+  ],
+  "journal": "Nature communications",
+  "preprint": false,
+  "doi": "10.1038/s41467-024-47985-z",
+  "cr_journal": "Nature Communications"
+ },
+ {
+  "year": 2024,
+  "title": "ZBTB18 regulates cytokine expression and affects microglia/macrophage recruitment and commitment in glioblastoma",
+  "authors": [
+   "Ferrarese, Roberto",
+   "Joseph, Kevin",
+   "Andrieux, Geoffroy",
+   "Haase, Ira Verena",
+   "Zanon, Francesca",
+   "Kling, Eva",
+   "Izzo, Annalisa",
+   "Corrales, Eyleen",
+   "Schwabenland, Marius",
+   "Prinz, Marco"
+  ],
+  "journal": "Communications biology",
+  "preprint": false,
+  "doi": "10.1038/s42003-024-07144-y",
+  "cr_journal": "Communications Biology"
+ },
+ {
+  "year": 2023,
+  "title": "Determination of patient-derived brain cancer cell respiration rates with chip-based microsensors",
+  "authors": [
+   "Weltin, Andreas",
+   "Dornhof, Johannes",
+   "Kieninger, Jochen",
+   "Rupitsch, Stefan J",
+   "Beck, Jürgen",
+   "Joseph, Kevin"
+  ],
+  "journal": "2023 IEEE BioSensors Conference (BioSensors)",
+  "preprint": false,
+  "doi": "10.1109/biosensors58001.2023.10280915",
+  "cr_journal": "2023 IEEE BioSensors Conference (BioSensors)"
+ },
+ {
+  "year": 2023,
+  "title": "High-sensitive spatially resolved T cell receptor sequencing with SPTCR-seq",
+  "authors": [
+   "Benotmane, Jasim Kada",
+   "Kueckelhaus, Jan",
+   "Will, Paulina",
+   "Zhang, Junyi",
+   "Ravi, Vidhya M",
+   "Joseph, Kevin",
+   "Sankowski, Roman",
+   "Beck, Jürgen",
+   "Lee-Chang, Catalina",
+   "Schnell, Oliver"
+  ],
+  "journal": "Nature communications",
+  "preprint": false,
+  "doi": "10.1038/s41467-023-43201-6",
+  "cr_journal": "Nature Communications"
+ },
+ {
+  "year": 2023,
+  "title": "Isolation and profiling of viable tumor cells from human ex vivo glioblastoma cultures through single-cell transcriptomics",
+  "authors": [
+   "Zhang, Junyi",
+   "Straehle, Jakob",
+   "Joseph, Kevin",
+   "Neidert, Nicolas",
+   "Behringer, Simon",
+   "Göldner, Jonathan",
+   "Vlachos, Andreas",
+   "Prinz, Marco",
+   "Fung, Christian",
+   "Beck, Jürgen"
+  ],
+  "journal": "STAR protocols",
+  "preprint": false,
+  "doi": "10.1016/j.xpro.2023.102383",
+  "cr_journal": "STAR Protocols"
+ },
+ {
+  "year": 2023,
+  "title": "Sialic acid metabolism orchestrates transcellular connectivity and signaling in glioblastoma",
+  "authors": [
+   "Kuliesiute, Ugne",
+   "Joseph, Kevin",
+   "Straehle, Jakob",
+   "Madapusi Ravi, Vidhya",
+   "Kueckelhaus, Jan",
+   "Kada Benotmane, Jasim",
+   "Zhang, Junyi",
+   "Vlachos, Andreas",
+   "Beck, Juergen",
+   "Schnell, Oliver"
+  ],
+  "journal": "Neuro-Oncology",
+  "preprint": false,
+  "doi": "10.1093/neuonc/noad101",
+  "cr_journal": "Neuro-Oncology"
+ },
+ {
+  "year": 2022,
+  "title": "Lactate dehydrogenases promote glioblastoma growth and invasion via a metabolic symbiosis",
+  "authors": [
+   "Guyon, Joris",
+   "Fernandez‐Moncada, Ignacio",
+   "Larrieu, Claire M",
+   "Bouchez, Cyrielle L",
+   "Pagano Zottola, Antonio C",
+   "Galvis, Johanna",
+   "Chouleur, Tiffanie",
+   "Burban, Audrey",
+   "Joseph, Kevin",
+   "Ravi, Vidhya M"
+  ],
+  "journal": "EMBO molecular medicine",
+  "preprint": false,
+  "doi": "10.15252/emmm.202115343",
+  "cr_journal": "EMBO Molecular Medicine"
+ },
+ {
+  "year": 2022,
+  "title": "Microglia contribute to the propagation of Aβ into unaffected brain tissue",
+  "authors": [
+   "d’Errico, Paolo",
+   "Ziegler-Waldkirch, Stephanie",
+   "Aires, Vanessa",
+   "Hoffmann, Philippe",
+   "Mezö, Charlotte",
+   "Erny, Daniel",
+   "Monasor, Laura Sebastian",
+   "Liebscher, Sabine",
+   "Ravi, Vidhya M",
+   "Joseph, Kevin"
+  ],
+  "journal": "Nature neuroscience",
+  "preprint": false,
+  "doi": "10.1038/s41593-021-00951-0",
+  "cr_journal": "Nature Neuroscience"
+ },
+ {
+  "year": 2022,
+  "title": "Spatially resolved multi-omics deciphers bidirectional tumor-host interdependence in glioblastoma",
+  "authors": [
+   "Ravi, Vidhya M",
+   "Will, Paulina",
+   "Kueckelhaus, Jan",
+   "Sun, Na",
+   "Joseph, Kevin",
+   "Salié, Henrike",
+   "Vollmer, Lea",
+   "Kuliesiute, Ugne",
+   "von Ehr, Jasmin",
+   "Benotmane, Jasim K"
+  ],
+  "journal": "Cancer cell",
+  "preprint": false,
+  "doi": "10.1016/j.ccell.2022.05.009",
+  "cr_journal": "Cancer Cell"
+ },
+ {
+  "year": 2022,
+  "title": "T-cell dysfunction in the glioblastoma microenvironment is mediated by myeloid cells releasing interleukin-10",
+  "authors": [
+   "Ravi, Vidhya M",
+   "Neidert, Nicolas",
+   "Will, Paulina",
+   "Joseph, Kevin",
+   "Maier, Julian P",
+   "Kückelhaus, Jan",
+   "Vollmer, Lea",
+   "Goeldner, Jonathan M",
+   "Behringer, Simon P",
+   "Scherer, Florian"
+  ],
+  "journal": "Nature communications",
+  "preprint": false,
+  "doi": "10.1038/s41467-022-28523-1",
+  "cr_journal": "Nature Communications"
+ },
+ {
+  "year": 2021,
+  "title": "Inhibition of metabotropic glutamate receptor III facilitates sensitization to alkylating chemotherapeutics in glioblastoma",
+  "authors": [
+   "Maier, Julian P",
+   "Ravi, Vidhya M",
+   "Kueckelhaus, Jan",
+   "Behringer, Simon P",
+   "Garrelfs, Niklas",
+   "Will, Paulina",
+   "Sun, Na",
+   "von Ehr, Jasmin",
+   "Goeldner, Jonathan M",
+   "Pfeifer, Dietmar"
+  ],
+  "journal": "Cell death & disease",
+  "preprint": false,
+  "doi": "10.1038/s41419-021-03937-9",
+  "cr_journal": "Cell Death &amp; Disease"
+ },
+ {
+  "year": 2021,
+  "title": "Meclofenamate causes loss of cellular tethering and decoupling of functional networks in glioblastoma",
+  "authors": [
+   "Schneider, Matthias",
+   "Vollmer, Lea",
+   "Potthoff, Anna-Laura",
+   "Ravi, Vidhya M",
+   "Evert, Bernd O",
+   "Rahman, Mohummad A",
+   "Sarowar, Shahin",
+   "Kueckelhaus, Jan",
+   "Will, Paulina",
+   "Zurhorst, David"
+  ],
+  "journal": "Neuro-Oncology",
+  "preprint": false,
+  "doi": "10.1093/neuonc/noab092",
+  "cr_journal": "Neuro-Oncology"
+ },
+ {
+  "year": 2021,
+  "title": "Transcriptional characterization of the glial response due to chronic neural implantation of flexible microprobes",
+  "authors": [
+   "Joseph, Kevin",
+   "Kirsch, Matthias",
+   "Johnston, Midori",
+   "Münkel, Christian",
+   "Stieglitz, Thomas",
+   "Haas, Carola A",
+   "Hofmann, Ulrich G"
+  ],
+  "journal": "Biomaterials",
+  "preprint": false,
+  "doi": "10.1016/j.biomaterials.2021.121230",
+  "cr_journal": "Biomaterials"
+ },
+ {
+  "year": 2020,
+  "title": "New life for old wires: electrochemical sensor method for neural implants",
+  "authors": [
+   "Weltin, Andreas",
+   "Ganatra, Dev",
+   "König, Kathrin",
+   "Joseph, Kevin",
+   "Hofmann, Ulrich G",
+   "Urban, Gerald A",
+   "Kieninger, Jochen"
+  ],
+  "journal": "Journal of neural engineering",
+  "preprint": false,
+  "doi": "10.1088/1741-2552/ab4c69",
+  "cr_journal": "Journal of Neural Engineering"
+ },
+ {
+  "year": 2020,
+  "title": "Inferring spatially transient gene expression pattern from spatial transcriptomic studies",
+  "authors": [
+   "Kueckelhaus, Jan",
+   "von Ehr, Jasmin",
+   "Ravi, Vidhya M",
+   "Will, Paulina",
+   "Joseph, Kevin",
+   "Beck, Juergen",
+   "Hofmann, Ulrich G",
+   "Delev, Daniel",
+   "Schnell, Oliver",
+   "Heiland, Dieter Henrik"
+  ],
+  "journal": "BioRxiv",
+  "preprint": true,
+  "doi": "10.1101/2020.10.20.346544",
+  "cr_journal": ""
+ },
+ {
+  "year": 2019,
+  "title": "Astrogliosis releases pro-oncogenic chitinase 3-like 1 causing MAPK signaling in glioblastoma",
+  "authors": [
+   "Wurm, Julian",
+   "Behringer, Simon P",
+   "Ravi, Vidhya M",
+   "Joseph, Kevin",
+   "Neidert, Nicolas",
+   "Maier, Julian P",
+   "Doria-Medina, Roberto",
+   "Follo, Marie",
+   "Delev, Daniel",
+   "Pfeifer, Dietmar"
+  ],
+  "journal": "Cancers",
+  "preprint": false,
+  "doi": "10.3390/cancers11101437",
+  "cr_journal": "Cancers"
+ },
+ {
+  "year": 2019,
+  "title": "Human organotypic brain slice culture: a novel framework for environmental research in neuro-oncology",
+  "authors": [
+   "Ravi, Vidhya M",
+   "Joseph, Kevin",
+   "Wurm, Julian",
+   "Behringer, Simon",
+   "Garrelfs, Nicklas",
+   "d’Errico, Paolo",
+   "Naseri, Yashar",
+   "Franco, Pamela",
+   "Meyer-Luehmann, Melanie",
+   "Sankowski, Roman"
+  ],
+  "journal": "Life science alliance",
+  "preprint": false,
+  "doi": "10.26508/lsa.201900305",
+  "cr_journal": "Life Science Alliance"
+ },
+ {
+  "year": 2019,
+  "title": "Inhibition of gap junctions sensitizes primary glioblastoma cells for temozolomide",
+  "authors": [
+   "Potthoff, Anna-Laura",
+   "Heiland, Dieter Henrik",
+   "Evert, Bernd O",
+   "Almeida, Filipe Rodrigues",
+   "Behringer, Simon P",
+   "Dolf, Andreas",
+   "Güresir, Ági",
+   "Güresir, Erdem",
+   "Joseph, Kevin",
+   "Pietsch, Torsten"
+  ],
+  "journal": "Cancers",
+  "preprint": false,
+  "doi": "10.3390/cancers11060858",
+  "cr_journal": "Cancers"
+ },
+ {
+  "year": 2019,
+  "title": "Quantitative synchrotron X-ray tomography of the material-tissue interface in rat cortex implanted with neural probes",
+  "authors": [
+   "Böhm, Thomas",
+   "Joseph, Kevin",
+   "Kirsch, Matthias",
+   "Moroni, Riko",
+   "Hilger, André",
+   "Osenberg, Markus",
+   "Manke, Ingo",
+   "Johnston, Midori",
+   "Stieglitz, Thomas",
+   "Hofmann, Ulrich G"
+  ],
+  "journal": "Scientific reports",
+  "preprint": false,
+  "doi": "10.1038/s41598-019-42544-9",
+  "cr_journal": "Scientific Reports"
+ },
+ {
+  "year": 2019,
+  "title": "Tumor-associated reactive astrocytes aid the evolution of immunosuppressive environment in glioblastoma",
+  "authors": [
+   "Henrik Heiland, Dieter",
+   "Ravi, Vidhya M",
+   "Behringer, Simon P",
+   "Frenking, Jan Hendrik",
+   "Wurm, Julian",
+   "Joseph, Kevin",
+   "Garrelfs, Nicklas WC",
+   "Strähle, Jakob",
+   "Heynckes, Sabrina",
+   "Grauvogel, Jürgen"
+  ],
+  "journal": "Nature communications",
+  "preprint": false,
+  "doi": "10.1038/s41467-019-10493-6",
+  "cr_journal": "Nature Communications"
+ }
+]
