@@ -757,5 +757,21 @@
   "doi": "10.1038/s41467-019-10493-6",
   "cr_journal": "Nature Communications",
   "selected": null
+ },
+ {
+  "year": 2018,
+  "title": "When the ostrich-algorithm fails: blanking method affects spike train statistics",
+  "authors": [
+   "Joseph, Kevin",
+   "Mottaghi, Soheil",
+   "Christ, Olaf",
+   "Feuerstein, Thomas J",
+   "Hofmann, Ulrich G"
+  ],
+  "journal": "Frontiers in Neuroscience",
+  "preprint": false,
+  "doi": "10.3389/fnins.2018.00293",
+  "cr_journal": "Frontiers in Neuroscience",
+  "selected": null
  }
 ]

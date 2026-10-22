@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools — Kevin Joseph</title>
+  <meta name="description" content="Open-source Rust, R, and Python tools for transcriptomics, proteomics, imaging, and electrophysiology.">
+  <meta name="author" content="Kevin Joseph">
+  <link rel="canonical" href="https://kevinj24fr.github.io/tools/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Tools — Kevin Joseph">
+  <meta property="og:description" content="Open-source Rust, R, and Python tools for transcriptomics, proteomics, imaging, and electrophysiology.">
+  <meta property="og:url" content="https://kevinj24fr.github.io/tools/">
+  <meta property="og:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2314213d'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f6f4ef' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1a2e" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2026-10-22j">
+  <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);})();</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand mono" href="/">kevin joseph</a>
+    <nav aria-label="Pages" class="mono"><a href="/">home</a><a href="/research/">research</a><a href="/papers/">papers</a><a href="/tools/" aria-current="page">tools</a><a href="/about/">about</a></nav>
+    <button id="theme-toggle" class="toggle mono" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="t-light">dark</span><span class="t-dark">light</span></button>
+  </div>
+  <nav aria-label="Pages, small screens" class="mono nav-small"><a href="/">home</a><a href="/research/">research</a><a href="/papers/">papers</a><a href="/tools/" aria-current="page">tools</a><a href="/about/">about</a></nav>
+</header>
+<main id="main"><div class="wrap">
+  <section class="page-head">
+    <p class="kicker mono">tools</p>
+    <h1>Tools</h1>
+    <p class="lede">Open-source, mostly Rust, built because the existing route was slow or loaded everything into memory. Each line is the command as you would actually type it.</p>
+  </section>
+  <section class="sec">
+    <div class="tool-list">
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/karna" target="_blank" rel="noopener noreferrer">karna</a><span class="tool-what">Transcriptomic analysis engine. Single-cell, spatial, bulk, cross-condition. Out-of-core, seeded, content-addressed provenance DAG.</span></div>
+        <pre><code>karna pipeline -i data.h5ad -o results/</code>
+<code>karna spatial-map --reference results/ --query visium_sample/ --obs-column cell_type -o spatial/</code></pre>
+        <p class="tool-note mono">marker FC vs Seurat r = 1.000 · GBMap 338K cells in 4 min vs 25</p>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/h5utils" target="_blank" rel="noopener noreferrer">h5utils</a><span class="tool-what">Query, validate, subset, split, merge, diff h5ad files without ever loading X.</span></div>
+        <pre><code>h5utils query atlas.h5ad --obs --columns cell_type --value-counts</code>
+<code>h5utils subset atlas.h5ad --genes markers.txt -o subset.h5ad</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/peek-series" target="_blank" rel="noopener noreferrer">peek-series</a><span class="tool-what">Twelve CLIs that read headers or stream one pass over FASTQ, BAM, VCF, BED, GTF, 10x, h5ad, CSV, JSON. Cost stays bounded with file size.</span></div>
+        <pre><code>peek sample.bam   # auto-detects the format</code>
+<code>fqpeek reads.fq.gz --json</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/atman" target="_blank" rel="noopener noreferrer">atman</a><span class="tool-what">Proteomics from Olink, SomaScan, MaxQuant, DIA-NN or Spectronaut, same commands on all of them. Every command writes a SHA-256 sidecar.</span></div>
+        <pre><code>atman ingest-matrix --matrix protein_groups.tsv --samples sample_metadata.tsv --output-dir out</code>
+<code>atman de --input-dir out --output-dir out --test welch-t --groups Case-Control</code></pre>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/kevinj24fr/mpx2nwb" target="_blank" rel="noopener noreferrer">mpx2nwb</a><span class="tool-what">Alpha Omega <code>.mpx</code> electrophysiology to NWB 2.7, in one step instead of three Python packages.</span></div>
+        <pre><code>mpx2nwb --batch ./raw --outdir ./nwb --subject-field 2 --jobs 5</code></pre>
+        <p class="tool-note mono">3.6× compression · merges split segments · refuses to merge across gaps</p>
+      </div>
+      <div class="tool">
+        <div class="tool-head"><a class="mono" href="https://github.com/3DBMandNE-Lab/MicroFace" target="_blank" rel="noopener noreferrer">MicroFace</a> / <a class="mono" href="https://github.com/3DBMandNE-Lab/Py_Microface" target="_blank" rel="noopener noreferrer">Py_Microface</a><span class="tool-what">Segmentation and morphometry of microglia from IBA1 images: 79 parameters per cell, 400,000 cells, four phenotypes, three injury zones. The method behind the iScience paper.</span></div>
+      </div>
+    </div>
+    <p class="also">Also: <a href="https://github.com/3DBMandNE-Lab/kaRna_R" target="_blank" rel="noopener noreferrer">kaRna_R</a> (karna as a Seurat accelerator), <a href="https://github.com/kevinj24fr/karnaplot" target="_blank" rel="noopener noreferrer">karnaplot</a>, <a href="https://github.com/3DBMandNE-Lab/GliomaEcology" target="_blank" rel="noopener noreferrer">GliomaEcology</a>, <a href="https://github.com/3DBMandNE-Lab/SpatialNiches" target="_blank" rel="noopener noreferrer">SpatialNiches</a>, <a href="https://github.com/3DBMandNE-Lab/scElectro" target="_blank" rel="noopener noreferrer">scElectro</a>, <a href="https://github.com/3DBMandNE-Lab/stTrace_R" target="_blank" rel="noopener noreferrer">stTrace_R</a>, <a href="https://github.com/3DBMandNE-Lab/FreiSpec" target="_blank" rel="noopener noreferrer">FreiSpec</a>, <a href="https://github.com/3DBMandNE-Lab/FastQRescue" target="_blank" rel="noopener noreferrer">FastQRescue</a>, <a href="https://github.com/3DBMandNE-Lab/cloupe-to-10x" target="_blank" rel="noopener noreferrer">cloupe-to-10x</a>. Everything else is on <a href="https://github.com/3DBMandNE-Lab" target="_blank" rel="noopener noreferrer">the lab org</a> and <a href="https://github.com/kevinj24fr?tab=repositories" target="_blank" rel="noopener noreferrer">my profile</a>.</p>
+  </section>
+
+</div></main>
+<footer class="foot mono">
+  <div class="wrap">
+    <p>static html · one css file · 20 lines of js · no analytics · no cookies · <a href="https://github.com/kevinj24fr/kevinj24fr.github.io" target="_blank" rel="noopener noreferrer">source</a></p>
+    <p>© <span id="year">2026</span> Kevin Joseph · last updated 2026-10-22</p>
+  </div>
+</footer>
+<script src="/assets/js/main.js?v=2026-10-22j"></script>
+</body>
+</html>

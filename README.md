@@ -1,22 +1,14 @@
 # kevinj24fr.github.io
 
-Source for [kevinj24fr.github.io](https://kevinj24fr.github.io/).
+Source for [kevinj24fr.github.io](https://kevinj24fr.github.io/). Static HTML and one CSS file, served by GitHub Pages from `main`.
 
-Static HTML and one CSS file, served by GitHub Pages from `main`. No build step is needed to
-publish; `index.html` is committed as-is.
-
-The papers section is generated:
+Pages are generated. Edit the page bodies, then build and commit:
 
 ```sh
-python3 -I scripts/build.py     # publications.json + scripts/template.html -> index.html
+python3 -I scripts/build.py     # scripts/pages/*.html + publications.json -> index.html, research/, papers/, tools/, about/
 ```
 
-`publications.json` was derived from a Google Scholar CSV export, filtered to peer-reviewed
-papers and preprints, with DOIs resolved through Crossref. To update it, re-export the CSV,
-regenerate the JSON, run the build, commit.
-
-- `index.html` — the page (generated)
-- `scripts/template.html` — everything except the papers list
-- `scripts/build.py` — fills the papers list into the template
-- `assets/css/style.css` — styles, light and dark
-- `assets/js/main.js` — theme toggle and the year in the footer
+- `scripts/pages/{home,research,papers,tools,about}.html` — page bodies. `{{L:title prefix|label}}` links a paper by title; `{{LEAD}}`, `{{ALL}}`, `{{N_ALL}}` fill the paper lists.
+- `scripts/build.py` — shared header, footer, and metadata; bump `V` there when the stylesheet changes so browsers fetch it fresh.
+- `publications.json` — from a Google Scholar CSV export, filtered to papers and preprints, DOIs resolved through Crossref.
+- `assets/css/style.css`, `assets/js/main.js` — styles (light and dark) and the theme toggle.
