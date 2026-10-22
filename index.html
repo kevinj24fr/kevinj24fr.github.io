@@ -17,7 +17,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231c1b19'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f3efe7' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
   <meta name="theme-color" content="#f3efe7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22b">
+  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22c">
   <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);})();</script>
 </head>
 <body>
@@ -28,7 +28,6 @@
     <a class="brand mono" href="#top">kevin joseph</a>
     <nav aria-label="Sections" class="mono">
       <a href="#work">work</a>
-      <a href="#rules">rules</a>
       <a href="#tools">tools</a>
       <a href="#papers">papers</a>
       <a href="#contact">contact</a>
@@ -92,21 +91,8 @@
     </ol>
   </section>
 
-  <section id="rules" class="sec">
-    <div class="sec-head"><span class="num mono">02</span><h2>How I work</h2></div>
-    <p class="intro">Rules I keep in the README of every tool I ship. They cost time up front and save more later.</p>
-    <ol class="rules">
-      <li><b>Validate the measurement before building anything.</b> What exactly is being measured, and what is the minimal operation that measures it? If the answer is “generate text and parse it”, the instrument is wrong. Fix the instrument, do not engineer around it.</li>
-      <li><b>Identical input gives byte-identical output.</b> Seeded RNG, content-addressed provenance, a sidecar per run that names the binary, the inputs, and the outputs by hash. Any result can be traced to its source and rerun.</li>
-      <li><b>Every claim carries the experiment behind it.</b> Statements are graded by the strongest evidence their source offers, not by whether they sound right. Where the model fails, it says so.</li>
-      <li><b>Keep the rejected methods.</b> Each one with the number that killed it and whether the attempt was fair. A negative result is only as strong as the best implementation tried.</li>
-      <li><b>Ship one binary.</b> No Python startup time, no dependency hell. If a 27 GB atlas has to be opened to check a column, the tool is wrong.</li>
-      <li><b>One machine, SQLite everywhere, no cloud.</b> Patient-derived data stays on hardware I can point at.</li>
-    </ol>
-  </section>
-
   <section id="tools" class="sec">
-    <div class="sec-head"><span class="num mono">03</span><h2>Tools</h2></div>
+    <div class="sec-head"><span class="num mono">02</span><h2>Tools</h2></div>
     <p class="intro">Open-source, mostly Rust, built because the existing route was slow or loaded everything into memory. Each line is the command as you would actually type it.</p>
     <div class="tool-list">
       <div class="tool">
@@ -143,7 +129,7 @@
   </section>
 
   <section id="papers" class="sec">
-    <div class="sec-head"><span class="num mono">04</span><h2>Papers</h2></div>
+    <div class="sec-head"><span class="num mono">03</span><h2>Papers</h2></div>
     <p class="intro">37 peer-reviewed papers and preprints since 2019, each linked to its DOI. Conference abstracts are left out. The complete record is on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
     <div class="pubs">
 <div class="yr"><div class="yr-label mono">2026</div><ol><li><a href="https://doi.org/10.1016/j.bas.2026.106856" target="_blank" rel="noopener noreferrer">Immune Microenvironment Profiling Reveals Grade-Independent Subgroups and a Selective T Cell Recruitment Deficit in Meningioma</a><span class="meta">Nurellari K, Mohammed AO … Grauvogel J · <i>Brain and Spine</i></span></li><li><a href="https://doi.org/10.1016/j.bioadv.2026.215226" target="_blank" rel="noopener noreferrer">Injection-free, spatially controlled delivery of glioblastoma cells to human brain slice cultures using soft cryogel biomaterials</a><span class="meta">Hill S, Mohammed AO … Werner C · <i>Biomaterials Advances</i></span></li><li><a href="https://doi.org/10.1016/j.isci.2026.116485" target="_blank" rel="noopener noreferrer">MicroFace maps microglial morphology remodeling, revealing spatial zones and bifurcated trajectories during brain microinjury recovery</a><span class="meta">Jariwala VD, Ponnamma S … <b>Joseph K</b> · <i>iScience</i></span></li><li><a href="https://doi.org/10.1371/journal.pone.0351819" target="_blank" rel="noopener noreferrer">Riboflavin-sensitized UVA collagen crosslinking produced a controllable, dose-dependent increase in the nanomechanical strength of ex vivo bovine dura mater</a><span class="meta">Vasilikos I, Swamy SM … Shah MJ · <i>PLOS ONE</i></span></li><li><a href="https://doi.org/10.1016/j.ccell.2026.08.005" target="_blank" rel="noopener noreferrer">Spatial analysis reveals the evolving organization of IDH-mutant glioma</a><span class="meta">Hoefflin R, Greenwald AC … Goliand I · <i>Cancer Cell</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noag220" target="_blank" rel="noopener noreferrer">Spatially restricted iron-metabolism-associated stress programs prime invasive mesenchymal glioblastoma states in human tissue-context models</a><span class="meta">Petry C, Boecke AS … Vlachos A · <i>Neuro-Oncology</i></span></li><li><a href="https://doi.org/10.64898/2026.02.26.707379" target="_blank" rel="noopener noreferrer">Hypoxia and Associated Acidosis Generate Cell-Type Specific Myeloid Responses in Glioblastoma</a> <span class="tag">preprint</span><span class="meta">Tiihonen AM, Salonen I … Mäntylä S · <i>bioRxiv</i></span></li><li><a href="https://doi.org/10.64898/2026.03.19.712876" target="_blank" rel="noopener noreferrer">In Search for Biomarkers Reflecting Neural Implant-Induced Tissue Response Dynamics</a> <span class="tag">preprint</span><span class="meta">Sharbatian A, <b>Joseph K</b> … Ashouri D · <i>bioRxiv</i></span></li><li><a href="https://doi.org/10.64898/2026.05.31.729105" target="_blank" rel="noopener noreferrer">Spatially confined niches support hypoxia-associated transcriptional plasticity contributing to malignant progression in IDH-mutant gliomas</a> <span class="tag">preprint</span><span class="meta">Das D, Pandele A … Shhab MA · <i>bioRxiv</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2025</div><ol><li><a href="https://doi.org/10.1177/15910199251339537" target="_blank" rel="noopener noreferrer">Autologous platelet-rich fibrin as an alternative epidural patch for persistent post-dural puncture headache: A single-center observational study</a><span class="meta">Vasilikos I, Argiti K … <b>Joseph K</b> … Beck J · <i>Interventional Neuroradiology</i></span></li><li><a href="https://doi.org/10.1016/j.bas.2025.105635" target="_blank" rel="noopener noreferrer">Feasibility and safety of cortical access point biopsy during hydrocephalus shunt surgery</a><span class="meta">Amirah R, Kim DB … <b>Joseph K</b> … Beck J · <i>Brain and Spine</i></span></li><li><a href="https://doi.org/10.26508/lsa.202403160" target="_blank" rel="noopener noreferrer">Human brain slice cultures: translational applications and ethical considerations</a><span class="meta"><b>Joseph K</b>, Vasilikos I … Fistouris P · <i>Life Science Alliance</i></span></li><li><a href="https://doi.org/10.1038/s41556-024-01583-9" target="_blank" rel="noopener noreferrer">Mapping the developmental trajectory of human astrocytes reveals divergence in glioblastoma</a><span class="meta">Sojka C, Wang HLV … <b>Joseph K</b> · <i>Nature Cell Biology</i></span></li><li><a href="https://doi.org/10.1371/journal.pone.0319349" target="_blank" rel="noopener noreferrer">Platelet rich fibrin and commercial sealants for dural closure in neurosurgery: an in vitro study</a><span class="meta">Argiti K, Shah MJ … <b>Joseph K</b> … Rölz R · <i>PLOS ONE</i></span></li><li><a href="https://doi.org/10.1093/neuonc/noaf160" target="_blank" rel="noopener noreferrer">Proneural–mesenchymal hybrid glioblastoma cells are resistant to therapy and dependent on nuclear import</a><span class="meta">Bourmeau G, Anezo O … Moutaux E · <i>Neuro-Oncology</i></span></li></ol></div><div class="yr"><div class="yr-label mono">2024</div><ol><li><a href="https://doi.org/10.3389/fsurg.2024.1500158" target="_blank" rel="noopener noreferrer">Platelet rich fibrin three-layer reconstruction of the sellar floor after endoscopic endonasal transsphenoidal approach: technical note and initial experience</a><span class="meta">Shah MJ, Argiti K … <b>Joseph K</b> … Beck J · <i>Frontiers in Surgery</i></span></li><li><a href="https://doi.org/10.1038/s41419-024-07056-z" target="_blank" rel="noopener noreferrer">SMAC mimetic drives microglia phenotype and glioblastoma immune microenvironment</a><span class="meta">Snacel-Fazy E, Soubéran A … <b>Joseph K</b> … Debarbieux F · <i>Cell Death &amp; Disease</i></span></li><li><a href="https://doi.org/10.1038/s41467-024-47985-z" target="_blank" rel="noopener noreferrer">VC-resist glioblastoma cell state: vessel co-option as a key driver of chemoradiation resistance</a><span class="meta">Pichol-Thievend C, Anezo O … Blanchard B · <i>Nature Communications</i></span></li><li><a href="https://doi.org/10.1038/s42003-024-07144-y" target="_blank" rel="noopener noreferrer">ZBTB18 regulates cytokine expression and affects microglia/macrophage recruitment and commitment in glioblastoma</a><span class="meta">Ferrarese R, <b>Joseph K</b> … Prinz M · <i>Communications Biology</i></span></li></ol></div>
@@ -157,12 +143,12 @@
   </section>
 
   <section id="off" class="sec">
-    <div class="sec-head"><span class="num mono">05</span><h2>Off the clock</h2></div>
+    <div class="sec-head"><span class="num mono">04</span><h2>Off the clock</h2></div>
     <p>I keep the same rules at home. There is a climate model of the Earth built one mechanism at a time in dependency-free Rust against ice-core and isotope records, to find out which conclusions the physics forces and which depend on parameter choices. There is also a USB enclosure that fails to enumerate past two drives, with a defect report and a driver in progress. Neither pays, both teach.</p>
   </section>
 
   <section id="contact" class="sec">
-    <div class="sec-head"><span class="num mono">06</span><h2>Working together</h2></div>
+    <div class="sec-head"><span class="num mono">05</span><h2>Working together</h2></div>
     <p>Open to collaborations with postdocs and ML scientists who want to build methods rather than apply them, biologists and clinicians with a question and tissue to go with it, and industry partners in neurotechnology or digital twins of the brain. Write to <a href="mailto:kevin.joseph@uniklinik-freiburg.de">kevin.joseph@uniklinik-freiburg.de</a>. Short emails get short answers, quickly.</p>
   </section>
 
@@ -176,6 +162,6 @@
   </div>
 </footer>
 
-<script src="assets/js/main.js?v=2026-10-22b"></script>
+<script src="assets/js/main.js?v=2026-10-22c"></script>
 </body>
 </html>

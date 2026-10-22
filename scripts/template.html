@@ -17,7 +17,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231c1b19'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f3efe7' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
   <meta name="theme-color" content="#f3efe7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
-  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22b">
+  <link rel="stylesheet" href="assets/css/style.css?v=2026-10-22c">
   <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);})();</script>
 </head>
 <body>
@@ -28,7 +28,6 @@
     <a class="brand mono" href="#top">kevin joseph</a>
     <nav aria-label="Sections" class="mono">
       <a href="#work">work</a>
-      <a href="#rules">rules</a>
       <a href="#tools">tools</a>
       <a href="#papers">papers</a>
       <a href="#contact">contact</a>
@@ -92,21 +91,8 @@
     </ol>
   </section>
 
-  <section id="rules" class="sec">
-    <div class="sec-head"><span class="num mono">02</span><h2>How I work</h2></div>
-    <p class="intro">Rules I keep in the README of every tool I ship. They cost time up front and save more later.</p>
-    <ol class="rules">
-      <li><b>Validate the measurement before building anything.</b> What exactly is being measured, and what is the minimal operation that measures it? If the answer is “generate text and parse it”, the instrument is wrong. Fix the instrument, do not engineer around it.</li>
-      <li><b>Identical input gives byte-identical output.</b> Seeded RNG, content-addressed provenance, a sidecar per run that names the binary, the inputs, and the outputs by hash. Any result can be traced to its source and rerun.</li>
-      <li><b>Every claim carries the experiment behind it.</b> Statements are graded by the strongest evidence their source offers, not by whether they sound right. Where the model fails, it says so.</li>
-      <li><b>Keep the rejected methods.</b> Each one with the number that killed it and whether the attempt was fair. A negative result is only as strong as the best implementation tried.</li>
-      <li><b>Ship one binary.</b> No Python startup time, no dependency hell. If a 27 GB atlas has to be opened to check a column, the tool is wrong.</li>
-      <li><b>One machine, SQLite everywhere, no cloud.</b> Patient-derived data stays on hardware I can point at.</li>
-    </ol>
-  </section>
-
   <section id="tools" class="sec">
-    <div class="sec-head"><span class="num mono">03</span><h2>Tools</h2></div>
+    <div class="sec-head"><span class="num mono">02</span><h2>Tools</h2></div>
     <p class="intro">Open-source, mostly Rust, built because the existing route was slow or loaded everything into memory. Each line is the command as you would actually type it.</p>
     <div class="tool-list">
       <div class="tool">
@@ -143,7 +129,7 @@
   </section>
 
   <section id="papers" class="sec">
-    <div class="sec-head"><span class="num mono">04</span><h2>Papers</h2></div>
+    <div class="sec-head"><span class="num mono">03</span><h2>Papers</h2></div>
     <p class="intro">{{N_ALL}} peer-reviewed papers and preprints since 2019, each linked to its DOI. Conference abstracts are left out. The complete record is on <a href="https://scholar.google.de/citations?user=s10D-HEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6317-8736" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
     <div class="pubs">
 {{RECENT}}
@@ -157,12 +143,12 @@
   </section>
 
   <section id="off" class="sec">
-    <div class="sec-head"><span class="num mono">05</span><h2>Off the clock</h2></div>
+    <div class="sec-head"><span class="num mono">04</span><h2>Off the clock</h2></div>
     <p>I keep the same rules at home. There is a climate model of the Earth built one mechanism at a time in dependency-free Rust against ice-core and isotope records, to find out which conclusions the physics forces and which depend on parameter choices. There is also a USB enclosure that fails to enumerate past two drives, with a defect report and a driver in progress. Neither pays, both teach.</p>
   </section>
 
   <section id="contact" class="sec">
-    <div class="sec-head"><span class="num mono">06</span><h2>Working together</h2></div>
+    <div class="sec-head"><span class="num mono">05</span><h2>Working together</h2></div>
     <p>Open to collaborations with postdocs and ML scientists who want to build methods rather than apply them, biologists and clinicians with a question and tissue to go with it, and industry partners in neurotechnology or digital twins of the brain. Write to <a href="mailto:kevin.joseph@uniklinik-freiburg.de">kevin.joseph@uniklinik-freiburg.de</a>. Short emails get short answers, quickly.</p>
   </section>
 
@@ -176,6 +162,6 @@
   </div>
 </footer>
 
-<script src="assets/js/main.js?v=2026-10-22b"></script>
+<script src="assets/js/main.js?v=2026-10-22c"></script>
 </body>
 </html>
