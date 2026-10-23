@@ -90,9 +90,9 @@ fetch the new file instead of applying a cached stylesheet to new markup.
 
 | File | Source | Refresh |
 |---|---|---|
-| `publications.json` | Google Scholar CSV export (Scholar blocks scraping; Kevin exports it) filtered to papers and preprints; DOIs via Crossref, journal version preferred over bioRxiv/SSRN/Research Square | re-export CSV, rebuild the JSON the same way, keep the `selected` field |
+| `publications.json` | Google Scholar CSV export (Scholar blocks scraping; Kevin exports it) filtered to papers and preprints; DOIs via Crossref, journal version preferred over bioRxiv/SSRN/Research Square | `python3 -I scripts/make_publications.py citations.csv`; it keeps the `selected` field; review the printed table |
 | `scripts/openalex.json` | OpenAlex, per DOI: authorships with institutions and countries, citation counts, plus the author summary | `python3 -I scripts/fetch_openalex.py` |
-| `scripts/trajectory.json` | every Scholar entry classified by kind (paper, abstract, thesis) and topic by title regexes | regenerate from the CSV with the same rules (they live in the git history of this README's first version and in the classifier used to make the file) |
+| `scripts/trajectory.json` | every Scholar entry classified by kind (paper, abstract, thesis) and topic by title regexes | `python3 -I scripts/classify_trajectory.py citations.csv`; extend the regexes until it reports no unclassified rows |
 | `scripts/world.json` | Equal Earth projection of outlines from the R `maps` package, simplified; includes the Europe inset box | only if the map needs changing |
 | `assets/img/card.png` | 1200×630 social preview, rendered by headless Chrome from `scripts/card/card.html` | re-render after a design or title change |
 
