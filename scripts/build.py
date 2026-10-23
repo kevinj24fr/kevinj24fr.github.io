@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23g'
+V='2026-10-23h'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
@@ -224,8 +224,7 @@ def layout(path,title,desc,body,jsonld=''):
 </div></main>
 <footer class="foot mono">
   <div class="wrap">
-    <p>static html · one css file · 20 lines of js · no analytics · no cookies · <a href="https://github.com/kevinj24fr/kevinj24fr.github.io" target="_blank" rel="noopener noreferrer">source</a></p>
-    <p>© <span id="year">2026</span> Kevin Joseph · last updated 2026-10-22</p>
+    <p>© <span id="year">2026</span> Kevin Joseph · <a href="https://github.com/kevinj24fr/kevinj24fr.github.io" target="_blank" rel="noopener noreferrer">source</a></p>
   </div>
 </footer>
 <script src="/assets/js/main.js?v={V}"></script>
