@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23m'
+V='2026-10-24a'
 DATA_DATE='23 Oct 2026'   # when publications.json / openalex.json / trajectory.json were last refreshed
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
@@ -213,9 +213,9 @@ def layout(path,title,desc,body,jsonld=''):
   <meta property="og:image:alt" content="Kevin Joseph, NeuroEngineering, Freiburg: three perturbations, one glial response, three readouts">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://kevinj24fr.github.io/assets/img/card.png">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2314213d'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f6f4ef' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
-  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1a2e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2316181a'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%238ff0aa' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f5f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0d0f" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" href="/assets/css/style.css?v={V}">
   {jsonld}
   <script>(function(){{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}})();</script>
@@ -255,6 +255,7 @@ for path,out,title,desc in PAGES+EXTRA:
     jl=jsonld_tag(PERSON) if name in ('home','about') else (jsonld_tag(papers_jsonld()) if name=='papers' else '')
     body=re.sub(r'\{\{L:([^|]+)\|([^}]+)\}\}',lambda m:L(m.group(1),m.group(2)),body)
     os.makedirs(os.path.dirname(out) or '.',exist_ok=True)
+    body=re.sub(r'<span class="num mono">\d\d</span>','<span class="tick" aria-hidden="true"></span>',body)
     page=layout(path,title,desc,body,jl)
     import html.parser; hp=html.parser.HTMLParser(); hp.feed(page)
     open(out,'w').write(page); print('wrote',out)
