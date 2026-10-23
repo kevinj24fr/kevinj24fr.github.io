@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23a'
+V='2026-10-23d'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
@@ -112,9 +112,57 @@ def collab_html():
         lst.sort(key=lambda x:(-x[0],x[1]))
         out.append(f'<div class="cc"><div class="cc-name"><span class="mono">{html.escape(cc)}</span> {html.escape(COUNTRY.get(cc,cc))}</div><ul>'+''.join(f'<li>{html.escape(n)} <span class="mono n">{k}</span></li>' for k,n in lst)+'</ul></div>')
     out.append('</div>')
-    top=[(n,k) for n,k in coauth.most_common(14)]
-    out.append('<p class="coauth"><span class="mono lbl">most frequent co-authors</span> '+' · '.join(f'{html.escape(n)} <span class="mono n">{k}</span>' for n,k in top)+'</p>')
-    return '\n'.join(out)
+    return map_svg()+'\n'+'\n'.join(out)
+
+# ---------- world map ----------
+world=json.load(open('scripts/world.json'))
+def collab_counts():
+    from collections import Counter
+    ctry=Counter()
+    for doi,w in oa.items():
+        if doi.startswith('_'): continue
+        cs=set()
+        for a in w['authorships']:
+            nm=a['name'] or ''
+            if 'Joseph' in nm and 'Kevin' in nm: continue
+            for i in a['institutions']:
+                if not i['name'] or i['name'].strip().lower() in HOME: continue
+                c=i['country'] or ({'City of Hope':'US','Northwestern University':'US'}.get(ALIAS.get(i['name'].strip().lower(),i['name'].strip())))
+                if c: cs.add(c)
+        for c in cs: ctry[c]+=1
+    return ctry
+def map_svg():
+    ctry=collab_counts()
+    mx=max(ctry.values()) if ctry else 1
+    W,H=world['w'],world['h']
+    s=[f'<svg class="wmap" viewBox="0 0 {W} {H}" role="img" aria-labelledby="wm-t wm-d" xmlns="http://www.w3.org/2000/svg">',
+       '<title id="wm-t">Countries of collaborating institutions</title>',
+       '<desc id="wm-d">World map with the home country, Germany, and each country of a co-author institution shaded by the number of shared papers.</desc>']
+    def style(code):
+        if code=='DE': return 'home','Germany, home'
+        if code in ctry:
+            n=ctry[code]; lvl=1+int(3*(n-1)/max(1,mx-1)) if mx>1 else 1
+            return f'c c{min(lvl,4)}', f'{COUNTRY.get(code,code)}: {n} shared paper{"s" if n!=1 else ""}'
+        return 'land',''
+    def path(code,d):
+        cls,t=style(code)
+        return f'<path class="{cls}" d="{d}">'+(f'<title>{html.escape(t)}</title>' if t else '')+'</path>'
+    for code,d in world['countries'].items(): s.append(path(code,d))
+    # Europe inset: own copy of the outlines whose bounding box touches the inset window
+    e=world['europe']; iw=300; ih=round(iw*e['h']/e['w']); ix,iy=18,H-ih-18
+    def bbox(d):
+        nums=[float(v) for v in re.findall(r'-?\d+(?:\.\d+)?',d)]
+        xs=nums[0::2]; ys=nums[1::2]; return min(xs),min(ys),max(xs),max(ys)
+    s.append(f'<rect class="inset-bg" x="{ix-1}" y="{iy-1}" width="{iw+2}" height="{ih+2}"/>')
+    s.append(f'<svg x="{ix}" y="{iy}" width="{iw}" height="{ih}" viewBox="{e["x"]} {e["y"]} {e["w"]} {e["h"]}" preserveAspectRatio="xMidYMid slice">')
+    for code,d in world['countries'].items():
+        x0,y0,x1,y1=bbox(d)
+        if x1<e['x'] or x0>e['x']+e['w'] or y1<e['y'] or y0>e['y']+e['h']: continue
+        s.append(path(code,d))
+    s.append('</svg>')
+    s.append(f'<text class="inset-lbl" x="{ix+6}" y="{iy+14}">europe</text>')
+    s.append('</svg>')
+    return '\n'.join(s)
 
 # ---------- conference abstracts line ----------
 def abstracts_line():

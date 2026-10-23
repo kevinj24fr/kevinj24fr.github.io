@@ -221,3 +221,15 @@ details.older > summary::-webkit-details-marker { display: none; }
 .coauth .lbl { color: var(--rust); display: block; margin-bottom: .2rem; }
 @media (max-width: 900px) { .collab { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .collab { grid-template-columns: 1fr; } }
+/* ---- world map ---- */
+.wmap { width: 100%; height: auto; margin: .25rem 0 1.5rem; }
+.wmap path { stroke: var(--paper); stroke-width: .5; }
+.wmap .land { fill: var(--rule); }
+.wmap .home { fill: var(--ink); }
+.wmap .c1 { fill: color-mix(in srgb, var(--rust) 35%, var(--paper-2)); }
+.wmap .c2 { fill: color-mix(in srgb, var(--rust) 55%, var(--paper-2)); }
+.wmap .c3 { fill: color-mix(in srgb, var(--rust) 75%, var(--paper-2)); }
+.wmap .c4 { fill: var(--rust); }
+.wmap .inset-bg { fill: var(--paper); stroke: var(--rule); stroke-width: 1; }
+.wmap .inset-lbl { font-family: var(--mono); font-size: 10px; fill: var(--mute); letter-spacing: .08em; text-transform: uppercase; }
+.wmap svg path { stroke-width: .35; }
