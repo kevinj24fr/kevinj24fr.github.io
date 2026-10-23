@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kevinj24fr.github.io/sitemap.xml

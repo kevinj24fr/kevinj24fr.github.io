@@ -233,3 +233,6 @@ details.older > summary::-webkit-details-marker { display: none; }
 .wmap .inset-bg { fill: var(--paper); stroke: var(--rule); stroke-width: 1; }
 .wmap .inset-lbl { font-family: var(--mono); font-size: 10px; fill: var(--mute); letter-spacing: .08em; text-transform: uppercase; }
 .wmap svg path { stroke-width: .35; }
+/* ---- now line ---- */
+.now { margin: 1rem 0 0; padding: .55rem .8rem; border: 1px dashed var(--rule); border-radius: 4px; color: var(--ink-2); font-size: .82rem; line-height: 1.5; }
+.now-k { color: var(--rust); margin-right: .5rem; }

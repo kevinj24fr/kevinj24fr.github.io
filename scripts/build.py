@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23e'
+V='2026-10-23f'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
@@ -192,12 +192,16 @@ def layout(path,title,desc,body,jsonld=''):
   <meta name="author" content="Kevin Joseph">
   <link rel="canonical" href="https://kevinj24fr.github.io{path}">
   <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Kevin Joseph">
   <meta property="og:title" content="{html.escape(title)}">
   <meta property="og:description" content="{html.escape(desc)}">
   <meta property="og:url" content="https://kevinj24fr.github.io{path}">
-  <meta property="og:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg">
+  <meta property="og:image" content="https://kevinj24fr.github.io/assets/img/card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Kevin Joseph, NeuroEngineering, Freiburg: three perturbations, one glial response, three readouts">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://kevinj24fr.github.io/assets/img/card.png">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2314213d'/%3E%3Ctext x='32' y='44' font-family='Menlo,monospace' font-size='28' font-weight='700' fill='%23f6f4ef' text-anchor='middle'%3Ekj%3C/text%3E%3C/svg%3E">
   <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1a2e" media="(prefers-color-scheme: dark)">
@@ -228,11 +232,11 @@ def layout(path,title,desc,body,jsonld=''):
 </body>
 </html>
 '''
-PAGES=[('/','index.html','Kevin Joseph — NeuroEngineering, Freiburg','Kevin Joseph leads the NeuroEngineering lab at the Department of Neurosurgery, Medical Center – University of Freiburg. Glial signalling in intact human brain tissue, measured with electrophysiology, spatial genomics, and machine learning.'),
-       ('/research/','research/index.html','Research — Kevin Joseph','How glial cells receive, integrate, and transmit signals in intact human brain tissue: platforms, findings, and the programme ahead.'),
-       ('/papers/','papers/index.html','Papers — Kevin Joseph','Peer-reviewed papers and preprints by Kevin Joseph, with DOIs.'),
-       ('/tools/','tools/index.html','Tools — Kevin Joseph','Open-source Rust, R, and Python tools for transcriptomics, proteomics, imaging, and electrophysiology.'),
-       ('/about/','about/index.html','About — Kevin Joseph','Career, education, funding, teaching, and service.')]
+PAGES=[('/','index.html','Kevin Joseph – NeuroEngineering, Neurosurgery Freiburg','Kevin Joseph, Dr.-Ing., leads the NeuroEngineering lab at the Department of Neurosurgery, Medical Center – University of Freiburg: glial signalling in living human brain tissue, spatial genomics, neural implants, Rust tools.'),
+       ('/research/','research/index.html','Research: glial signalling in human brain tissue – Kevin Joseph, Freiburg','Human brain slice cultures, spatial and single-cell genomics, electrophysiology, and machine learning to ask how glial cells respond to tumours, implants, and amyloid. Lab of Kevin Joseph, Neurosurgery Freiburg.'),
+       ('/papers/','papers/index.html','Papers – Kevin Joseph, Neurosurgery Freiburg','Peer-reviewed papers and preprints by Kevin Joseph with DOIs: Cancer Cell, Nature Communications, iScience, Neuro-Oncology, Biomaterials, Life Science Alliance. Glioblastoma, meningioma, neural implants, human tissue models.'),
+       ('/tools/','tools/index.html','Tools: karna, h5utils, peek-series, atman, mpx2nwb – Kevin Joseph','Open-source Rust tools for bioinformatics by Kevin Joseph: karna transcriptomics engine, h5utils for h5ad files, peek-series format inspectors, atman proteomics, mpx2nwb electrophysiology conversion.'),
+       ('/about/','about/index.html','About Kevin Joseph – Dr.-Ing., Research Group Leader, Freiburg','Career, lab, collaborators, teaching, and contact for Kevin Joseph, biomedical engineer and neuroscientist leading NeuroEngineering at the Department of Neurosurgery, University of Freiburg.')]
 for path,out,title,desc in PAGES:
     name='home' if path=='/' else path.strip('/')
     body=open('scripts/pages/%s.html'%name).read()
@@ -244,3 +248,11 @@ for path,out,title,desc in PAGES:
     page=layout(path,title,desc,body,jl)
     import html.parser; hp=html.parser.HTMLParser(); hp.feed(page)
     open(out,'w').write(page); print('wrote',out)
+
+# ---------- sitemap and robots ----------
+LASTMOD='2026-10-23'
+sm=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+for path,_,_,_ in PAGES: sm.append(f'  <url><loc>https://kevinj24fr.github.io{path}</loc><lastmod>{LASTMOD}</lastmod></url>')
+sm.append('</urlset>'); open('sitemap.xml','w').write('\n'.join(sm)+'\n')
+open('robots.txt','w').write('User-agent: *\nAllow: /\nSitemap: https://kevinj24fr.github.io/sitemap.xml\n')
+print('wrote sitemap.xml robots.txt')
