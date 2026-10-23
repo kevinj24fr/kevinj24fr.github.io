@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23d'
+V='2026-10-23e'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
@@ -102,16 +102,10 @@ def collab_html():
                 if i['country'] and name not in ictry: ictry[name]=i['country']
                 if name=='City of Hope': ictry[name]='US'
                 if name=='Northwestern University': ictry[name]='US'
-    bycountry=defaultdict(list)
-    for name,n in inst.items():
-        if n<2: continue
-        bycountry[ictry.get(name,'--')].append((n,name))
-    order=sorted(bycountry.items(), key=lambda kv:(-sum(n for n,_ in kv[1]), kv[0]))
-    out=['<div class="collab">']
-    for cc,lst in order:
-        lst.sort(key=lambda x:(-x[0],x[1]))
-        out.append(f'<div class="cc"><div class="cc-name"><span class="mono">{html.escape(cc)}</span> {html.escape(COUNTRY.get(cc,cc))}</div><ul>'+''.join(f'<li>{html.escape(n)} <span class="mono n">{k}</span></li>' for k,n in lst)+'</ul></div>')
-    out.append('</div>')
+    top=[(n,k) for n,k in sorted(inst.items(), key=lambda kv:(-kv[1],kv[0])) if k>=3]
+    names=[f'{html.escape(n)} ({COUNTRY.get(ictry.get(n,""),ictry.get(n,""))})' for n,k in top]
+    line='<p class="after">Closest partners, three or more shared papers: '+', '.join(names)+'. Hover a country for its count.</p>'
+    out=[line]
     return map_svg()+'\n'+'\n'.join(out)
 
 # ---------- world map ----------
@@ -149,7 +143,7 @@ def map_svg():
         return f'<path class="{cls}" d="{d}">'+(f'<title>{html.escape(t)}</title>' if t else '')+'</path>'
     for code,d in world['countries'].items(): s.append(path(code,d))
     # Europe inset: own copy of the outlines whose bounding box touches the inset window
-    e=world['europe']; iw=300; ih=round(iw*e['h']/e['w']); ix,iy=18,H-ih-18
+    e=world['europe']; iw=170; ih=round(iw*e['h']/e['w']); ix,iy=40,H-ih-30
     def bbox(d):
         nums=[float(v) for v in re.findall(r'-?\d+(?:\.\d+)?',d)]
         xs=nums[0::2]; ys=nums[1::2]; return min(xs),min(ys),max(xs),max(ys)
