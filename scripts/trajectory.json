@@ -1,0 +1,604 @@
+[
+ {
+  "year": 2014,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Transmitter self-regulation by extracellular glutamate in fresh human cortical slices",
+  "venue": "Journal of Neural Transmission"
+ },
+ {
+  "year": 2014,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "N-Methyl-D-Aspartate Receptor Activation Interacts with Electrical High Frequency Stimulation in the Rat Caudate Nucleus in vitro and in vivo",
+  "venue": "Open J Neurosci"
+ },
+ {
+  "year": 2014,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Modulation of Extracellular Levels of 5-HT in the Caudate Putamen of Freely Moving Rats by High Frequency Stimulation of the Subthalamic Nucleus",
+  "venue": "The Open Neuroscience Journal"
+ },
+ {
+  "year": 2015,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Electrical high frequency stimulation modulates GABAergic activity in the nucleus accumbens of freely moving rats",
+  "venue": "Neurochemistry International"
+ },
+ {
+  "year": 2016,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Neocortical GABA release at high intracellular sodium and low extracellular calcium: an anti‐seizure mechanism",
+  "venue": "Journal of neurochemistry"
+ },
+ {
+  "year": 2016,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Nasal administration of leptin dose-dependently increases dopamine and serotonin outflow in the rat nucleus accumbens",
+  "venue": "Journal of Neural Transmission"
+ },
+ {
+  "year": 2017,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "Setup of a white light selective plane microscope to investigate microprobe insertion in a brain model",
+  "venue": "EMBEC & NBC 2017"
+ },
+ {
+  "year": 2017,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "Microfluidic drive for flexible brain implants",
+  "venue": "Current Directions in Biomedical Engineering"
+ },
+ {
+  "year": 2018,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "When the ostrich-algorithm fails: blanking method affects spike train statistics",
+  "venue": "Frontiers in neuroscience"
+ },
+ {
+  "year": 2019,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "Quantitative synchrotron X-ray tomography of the material-tissue interface in rat cortex implanted with neural probes",
+  "venue": "Scientific reports"
+ },
+ {
+  "year": 2019,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Tumor-associated reactive astrocytes aid the evolution of immunosuppressive environment in glioblastoma",
+  "venue": "Nature communications"
+ },
+ {
+  "year": 2019,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Inhibition of gap junctions sensitizes primary glioblastoma cells for temozolomide",
+  "venue": "Cancers"
+ },
+ {
+  "year": 2019,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Human organotypic brain slice culture: a novel framework for environmental research in neuro-oncology",
+  "venue": "Life science alliance"
+ },
+ {
+  "year": 2019,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Astrogliosis releases pro-oncogenic chitinase 3-like 1 causing MAPK signaling in glioblastoma",
+  "venue": "Cancers"
+ },
+ {
+  "year": 2020,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "New life for old wires: electrochemical sensor method for neural implants",
+  "venue": "Journal of neural engineering"
+ },
+ {
+  "year": 2018,
+  "kind": "thesis",
+  "topic": "neurotransmission & stimulation",
+  "title": "HFS and the brain: multiscale effects of electrical stimulation on a neurotransmitter system",
+  "venue": ""
+ },
+ {
+  "year": 2016,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Deep brain stimulation: increasing efficiency by alternative waveforms",
+  "venue": "Current directions in biomedical engineering"
+ },
+ {
+  "year": 2017,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "When a rose is not a rose: Pyramidal neurons respond differently in healthy and epileptic human neocortex",
+  "venue": "BioRxiv"
+ },
+ {
+  "year": 2020,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Inferring spatially transient gene expression pattern from spatial transcriptomic studies",
+  "venue": "BioRxiv"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "Meclofenamate causes loss of cellular tethering and decoupling of functional networks in glioblastoma",
+  "venue": "Neuro-oncology"
+ },
+ {
+  "year": 2021,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "Transcriptional characterization of the glial response due to chronic neural implantation of flexible microprobes",
+  "venue": "Biomaterials"
+ },
+ {
+  "year": 2021,
+  "kind": "paper",
+  "topic": "neurotransmission & stimulation",
+  "title": "Inhibition of metabotropic glutamate receptor III facilitates sensitization to alkylating chemotherapeutics in glioblastoma",
+  "venue": "Cell death & disease"
+ },
+ {
+  "year": 2022,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Spatially resolved multi-omics deciphers bidirectional tumor-host interdependence in glioblastoma",
+  "venue": "Cancer cell"
+ },
+ {
+  "year": 2021,
+  "kind": "other",
+  "topic": "glioma microenvironment",
+  "title": "Oncometabolite R-2 hydroxyglutarate aids the inflammatory transformation of peritumoral astrocytes",
+  "venue": ""
+ },
+ {
+  "year": 2022,
+  "kind": "paper",
+  "topic": "neurodegeneration",
+  "title": "Microglia contribute to the propagation of Aβ into unaffected brain tissue",
+  "venue": "Nature neuroscience"
+ },
+ {
+  "year": 2022,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "T-cell dysfunction in the glioblastoma microenvironment is mediated by myeloid cells releasing interleukin-10",
+  "venue": "Nature communications"
+ },
+ {
+  "year": 2022,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Lactate dehydrogenases promote glioblastoma growth and invasion via a metabolic symbiosis",
+  "venue": "EMBO molecular medicine"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "TAMI-72. DIVERSITY OF CELLULAR COMMUNICATION IN GLIOBLASTOMA",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "OS06. 9A Diversity of cellular communication in glioblastoma",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "spatial & single-cell",
+  "title": "IMMU-28. DECONVOLUTION OF SPATIALLY RESOLVED T CELL RECEPTOR PROFILING (SPTCR-seq) UNCOVERED REGIONAL ANTI-TUMOR IMMUNITY IN GLIOBLASTOMA",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "neurotransmission & stimulation",
+  "title": "OS06. 6A Inhibition of GBM invasion by the α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor antagonist Perampanel",
+  "venue": "Neuro-oncology"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "Sialic acid metabolism orchestrates transcellular connectivity and signaling in glioblastoma",
+  "venue": "Neuro-oncology"
+ },
+ {
+  "year": 2023,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Isolation and profiling of viable tumor cells from human ex vivo glioblastoma cultures through single-cell transcriptomics",
+  "venue": "STAR protocols"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "OS07. 5. A GLIOBLASTOMA VESSEL CO-OPTION AND TRANSITION TO A RESISTANT CELL STATE ARE INDUCED BY CHEMORADIATION",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2023,
+  "kind": "paper",
+  "topic": "neurosurgery & diagnostics",
+  "title": "Determination of patient-derived brain cancer cell respiration rates with chip-based microsensors",
+  "venue": "2023 IEEE BioSensors Conference (BioSensors)"
+ },
+ {
+  "year": 2023,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "High-sensitive spatially resolved T cell receptor sequencing with SPTCR-seq",
+  "venue": "Nature communications"
+ },
+ {
+  "year": 2024,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Melanoma-inhibitor of apoptosis protein: a key driver of microglia phenotype and glioblastoma immune microenvironment",
+  "venue": "PREPRINT"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "TMIC-76. GLIOBLASTOMA VESSEL CO-OPTION OCCURS AS A RESISTANCE MECHANISM TO CHEMORADIATION VIA INDUCTION OF A NOVEL CELL STATE",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2022,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P12. 14. A The role of onco-metabolite (R2hydroxyglutarate) in the IDH mutant glioblastoma microenvironment",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "human tissue models",
+  "title": "TMOD-17. A NOVEL GLIOBLASTOMA INVASION MODEL USING HUMAN BRAIN SLICE CULTURES",
+  "venue": "NEURO-ONCOLOGY"
+ },
+ {
+  "year": 2022,
+  "kind": "abstract",
+  "topic": "human tissue models",
+  "title": "A PERSONALIZED BRAF MUTANT GLIOBLASTOMA WITH HUMAN2HUMANEX-VIVO CORTICAL CULTURES",
+  "venue": "NEURO-ONCOLOGY"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "neural implants & interface",
+  "title": "Micrometre-scale thickness-variation of an implanted brain electrode minimally impacts resultant astrogliosis and neuronal density loss.",
+  "venue": "GLIA"
+ },
+ {
+  "year": 2024,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "SMAC mimetic drives microglia phenotype and glioblastoma immune microenvironment",
+  "venue": "Cell death & disease"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "human tissue models",
+  "title": "A Novel preclinical human Ex-vivo Cerebellum Model: For a Bench to Bedside Research",
+  "venue": "GLIA"
+ },
+ {
+  "year": 2024,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "VC-resist glioblastoma cell state: vessel co-option as a key driver of chemoradiation resistance",
+  "venue": "Nature communications"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P12. 05. B THE ROLE OF ONCO-METABOLITE IN THE IDH MUTANT GLIOBLASTOMA MICROENVIRONMENT",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2023,
+  "kind": "abstract",
+  "topic": "human tissue models",
+  "title": "P20. 13. A AUTOGRAFTED HUMAN CORTICAL SLICE MODEL REVEALS MESENCHYMAL-LIKE TRANSITION IN BRAF-MUTATED GLIOBLASTOMA UNDER TARGETED THERAPY",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2024,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "ZBTB18 regulates cytokine expression and affects microglia/macrophage recruitment and commitment in glioblastoma",
+  "venue": "Communications biology"
+ },
+ {
+  "year": 2024,
+  "kind": "abstract",
+  "topic": "spatial & single-cell",
+  "title": "CNSC-65. ELECTROPHYSIOLOGICAL AND SPATIAL TRANSCRIPTOMIC PROFILING OF GLIOMA-INFILTRATED CORTEX REVEAL LAYER SPECIFIC ALTERATIONS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2024,
+  "kind": "paper",
+  "topic": "neurosurgery & diagnostics",
+  "title": "Platelet rich fibrin three-layer reconstruction of the sellar floor after endoscopic endonasal transsphenoidal approach: technical note and initial experience",
+  "venue": "Frontiers in Surgery"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Mapping the developmental trajectory of human astrocytes reveals divergence in glioblastoma",
+  "venue": "Nature cell biology"
+ },
+ {
+  "year": 2024,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P02. 09. B HYPOXIA MODULATES DIFFUSE ASTROCYTOMA TUMOR MICROENVIRONMENT THROUGH CELL-TYPE-DEPENDENT RESPONSES",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "neurosurgery & diagnostics",
+  "title": "Platelet rich fibrin and commercial sealants for dural closure in neurosurgery: an in vitro study",
+  "venue": "Plos one"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "neurosurgery & diagnostics",
+  "title": "Autologous platelet-rich fibrin as an alternative epidural patch for persistent post-dural puncture headache: A single-center observational study",
+  "venue": "Interventional Neuroradiology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "Proneural–mesenchymal hybrid glioblastoma cells are resistant to therapy and dependent on nuclear import",
+  "venue": "Neuro-oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "meningioma",
+  "title": "P13. 17. B HUMAN MENINGIOMA TUMOR MODELS REVEAL GRADE-SPECIFIC MICROENVIRONMENTAL INTERACTIONS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P02. 09. B SURGICAL RESECTION OF GLIOBLASTOMA INDUCES IMMUNOSUPPRESSION",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "OS05. 7. A NEUROSURGERY IN GLIOBLASTOMA INDUCES CELL PLASTICITY, THERAPY RESISTANCE AND IMMUNOSUPPRESSION BY ISCHEMIC HYPOXIA",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "EXTH-144. Multifunctional chimeric antigen receptor immune cell communities demonstrate promising preclinical safety and efficacy against glioblastoma",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "neurosurgery & diagnostics",
+  "title": "P07. 13. A ENHANCING NEUROSURGICAL GUIDANCE IN GLIOBLASTOMA USING NITROGEN VACANT (NV) DIAMOND QUANTUM SENSING",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Human brain slice cultures: translational applications and ethical considerations",
+  "venue": "Life science alliance"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "neurosurgery & diagnostics",
+  "title": "Feasibility and safety of cortical access point biopsy during hydrocephalus shunt surgery",
+  "venue": "Brain and Spine"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "CNSC-95. GLIOMA-INFILTRATION INDUCES DRUG-RESPONSIVE MULTISCALE REMODELING OF HUMAN CORTICAL CIRCUITRY",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "meningioma",
+  "title": "P13. 18. A MENINGIOMAP: A SINGLE-CELL ATLAS OF MENINGIOMA ECOSYSTEMS AND MICROENVIRONMENTAL NETWORKS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P02. 20. A IRON-DRIVEN MESENCHYMAL TRANSITION ENHANCES INVASION IN GLIOBLASTOMA",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P02. 22. A HYPOXIA-DRIVEN EGFR SIGNALING PROMOTES A QUIESCENT-ACTIVATION AXIS IN IDH-MUTANT LOW-GRADE GLIOMAS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "P02. 29. B HYPOXIA SHAPES TUMOR IMMUNE MICROENVIRONMENT THROUGH CELL-TYPE DEPENDENT RESPONSES IN DIFFUSE ASTROCYTOMAS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2025,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Iron-Associated Mesenchymal Plasticity and Tumor Invasion in Glioblastoma",
+  "venue": "bioRxiv"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "glioma microenvironment",
+  "title": "Hypoxia and Associated Acidosis Generate Cell-Type Specific Myeloid Responses in Glioblastoma",
+  "venue": "bioRxiv"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Spatial analysis reveals the evolving organization of low-grade and high-grade IDH-mutant glioma",
+  "venue": "bioRxiv"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "In Search for Biomarkers Reflecting Neural Implant-Induced Tissue Response Dynamics",
+  "venue": "bioRxiv"
+ },
+ {
+  "year": 2026,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "Hypoxia shapes tumor immune microenvironment through cell-type dependent responses in diffuse astrocytomas.",
+  "venue": "Cancer Research"
+ },
+ {
+  "year": 2021,
+  "kind": "abstract",
+  "topic": "glioma microenvironment",
+  "title": "Interaktionen zwischen lymphoiden und myeloiden Zellen in der Tumorumgebung des Glioblastoms sind maßgeblich durch den Interleukin-10-Signalweg charakterisiert",
+  "venue": "1. Tagungswoche der Sektionen der DGNC 27.09. 2021-01.10. 2021."
+ },
+ {
+  "year": 2018,
+  "kind": "abstract",
+  "topic": "neural implants & interface",
+  "title": "X-ray tomographic 3D reconstruction of the brain-probe-interface in rat cortex",
+  "venue": ""
+ },
+ {
+  "year": 2018,
+  "kind": "abstract",
+  "topic": "neural implants & interface",
+  "title": "Poster: CAPRI–Characterization of probe interactions with brain tissue",
+  "venue": ""
+ },
+ {
+  "year": 2018,
+  "kind": "abstract",
+  "topic": "neural implants & interface",
+  "title": "Poster: Molecular and structural characterization of probe-tissue interactions in the rat brain",
+  "venue": ""
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Riboflavin-sensitized UVA collagen crosslinking produced a controllable, dose-dependent increase in the nanomechanical strength of ex vivo bovine dura mater",
+  "venue": "PLoS One"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "neural implants & interface",
+  "title": "MicroFace maps microglial morphology remodeling, revealing spatial zones and bifurcated trajectories during brain microinjury recovery",
+  "venue": "Iscience"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Spatially confined niches support hypoxia-associated transcriptional plasticity contributing to malignant progression in IDH-mutant gliomas",
+  "venue": "bioRxiv"
+ },
+ {
+  "year": 2020,
+  "kind": "abstract",
+  "topic": "spatial & single-cell",
+  "title": "IMMU-34. LANDSCAPE OF GLIOBLASTOMA-ASSOCIATED IMMUNITY BY INTEGRATION OF scRNA-SEQ AND SPATIAL TRANSCRIPTOMICS",
+  "venue": "Neuro-Oncology"
+ },
+ {
+  "year": 2017,
+  "kind": "abstract",
+  "topic": "neural implants & interface",
+  "title": "Poster: CAPRI–Characterization of probe interactions with brain tissue",
+  "venue": ""
+ },
+ {
+  "year": 2026,
+  "kind": "abstract",
+  "topic": "neurosurgery & diagnostics",
+  "title": "CSF proteomic alterations in spontaneous intracranial hypotension",
+  "venue": "EUROPEAN JOURNAL OF NEUROLOGY"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "spatial & single-cell",
+  "title": "Spatial analysis reveals the evolving organization of IDH-mutant glioma",
+  "venue": "Cancer cell"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "meningioma",
+  "title": "Immune Microenvironment Profiling Reveals Grade-Independent Subgroups and a Selective T Cell Recruitment Deficit in Meningioma",
+  "venue": "Brain and Spine"
+ },
+ {
+  "year": 2026,
+  "kind": "paper",
+  "topic": "human tissue models",
+  "title": "Injection-free, spatially controlled delivery of glioblastoma cells to human brain slice cultures using soft cryogel biomaterials",
+  "venue": "Biomaterials Advances"
+ },
+ {
+  "year": 2026,
+  "kind": "abstract",
+  "topic": "spatial & single-cell",
+  "title": "Spatially restricted iron-metabolism-associated stress programs prime invasive mesenchymal glioblastoma states in human tissue-context models",
+  "venue": "Neuro-Oncology"
+ }
+]

@@ -201,3 +201,23 @@ details.older > summary::-webkit-details-marker { display: none; }
 .triptych .caption { font-size: 12px; fill: var(--mute); font-style: italic; font-family: var(--serif); }
 @media (max-width: 900px) { .grid3 { grid-template-columns: 1fr; } }
 @media (max-width: 640px) { .timeline li { grid-template-columns: 1fr; gap: .2rem; } .page-head h1 { font-size: 2.1rem; } }
+
+/* ---- trajectory ---- */
+.traj { width: 100%; height: auto; margin: .5rem 0 0; font-family: var(--mono); }
+.traj .yr { font-size: 11px; fill: var(--mute); }
+.traj .grid { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 2 4; }
+.traj .lbl { font-size: 12px; fill: var(--ink-2); }
+.traj .dot { fill: var(--rust); opacity: .85; }
+.traj .dot.abs { fill: none; stroke: var(--rust); stroke-width: 1.5; }
+.traj .cap { font-size: 10.5px; fill: var(--mute); }
+/* ---- collaborators ---- */
+.collab { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem 1.5rem; }
+.cc-name { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; margin-bottom: .3rem; color: var(--ink); }
+.cc-name .mono { color: var(--rust); margin-right: .35rem; }
+.cc ul { list-style: none; margin: 0; padding: 0; }
+.cc li { font-size: .92rem; color: var(--ink-2); padding: .15rem 0; border-top: 1px dashed var(--rule); display: flex; justify-content: space-between; gap: .5rem; }
+.n { color: var(--mute); }
+.coauth { margin: 1.5rem 0 0; color: var(--ink-2); font-size: .95rem; line-height: 1.7; }
+.coauth .lbl { color: var(--rust); display: block; margin-bottom: .2rem; }
+@media (max-width: 900px) { .collab { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .collab { grid-template-columns: 1fr; } }
