@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23i'
+V='2026-10-23j'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
@@ -165,7 +165,7 @@ def abstracts_line():
     return f'{len(ab)} conference abstracts are not listed: most in the EANO and SNO meeting supplements of <i>Neuro-Oncology</i>, the rest in <i>GLIA</i>, <i>Cancer Research</i>, the <i>European Journal of Neurology</i>, and the DGNC sections meeting.'
 
 # ---------- structured data ----------
-PERSON={"@context":"https://schema.org","@type":"Person","name":"Kevin Joseph","honorificPrefix":"Dr.-Ing.","jobTitle":"Research Group Leader, NeuroEngineering",
+PERSON={"@context":"https://schema.org","@type":"Person","name":"Kevin Joseph","honorificPrefix":"Dr.-Ing.","jobTitle":"Research Group Leader, Laboratory for NeuroEngineering",
   "affiliation":{"@type":"Organization","name":"Department of Neurosurgery, Medical Center – University of Freiburg","url":"https://www.uniklinik-freiburg.de/neurochirurgie.html"},
   "email":"mailto:kevin.joseph@uniklinik-freiburg.de","url":"https://kevinj24fr.github.io/","image":"https://kevinj24fr.github.io/assets/img/kevin-joseph.jpg",
   "sameAs":["https://orcid.org/0000-0001-6317-8736","https://scholar.google.de/citations?user=s10D-HEAAAAJ","https://github.com/kevinj24fr","https://www.linkedin.com/in/josephkevin","https://openalex.org/A5035795519"],
@@ -231,11 +231,11 @@ def layout(path,title,desc,body,jsonld=''):
 </body>
 </html>
 '''
-PAGES=[('/','index.html','Kevin Joseph – NeuroEngineering, Neurosurgery Freiburg','Kevin Joseph, Dr.-Ing., leads the NeuroEngineering lab at the Department of Neurosurgery, Medical Center – University of Freiburg: glial signalling in living human brain tissue, spatial genomics, neural implants, Rust tools.'),
+PAGES=[('/','index.html','Kevin Joseph – NeuroEngineering, Neurosurgery Freiburg','Kevin Joseph, Dr.-Ing., leads the Laboratory for NeuroEngineering at the Department of Neurosurgery, Medical Center – University of Freiburg: glial signalling in living human brain tissue, spatial genomics, neural implants, Rust tools.'),
        ('/research/','research/index.html','Research: glial signalling in human brain tissue – Kevin Joseph, Freiburg','Human brain slice cultures, spatial and single-cell genomics, electrophysiology, and machine learning to ask how glial cells respond to tumours, implants, and amyloid. Lab of Kevin Joseph, Neurosurgery Freiburg.'),
        ('/papers/','papers/index.html','Papers – Kevin Joseph, Neurosurgery Freiburg','Peer-reviewed papers and preprints by Kevin Joseph with DOIs: Cancer Cell, Nature Communications, iScience, Neuro-Oncology, Biomaterials, Life Science Alliance. Glioblastoma, meningioma, neural implants, human tissue models.'),
        ('/tools/','tools/index.html','Tools: karna, h5utils, peek-series, atman, mpx2nwb – Kevin Joseph','Open-source Rust tools for bioinformatics by Kevin Joseph: karna transcriptomics engine, h5utils for h5ad files, peek-series format inspectors, atman proteomics, mpx2nwb electrophysiology conversion.'),
-       ('/about/','about/index.html','About Kevin Joseph – Dr.-Ing., Research Group Leader, Freiburg','Career, lab, collaborators, teaching, and contact for Kevin Joseph, biomedical engineer and neuroscientist leading NeuroEngineering at the Department of Neurosurgery, University of Freiburg.')]
+       ('/about/','about/index.html','About Kevin Joseph – Dr.-Ing., Research Group Leader, Freiburg','Career, lab, collaborators, teaching, and contact for Kevin Joseph, biomedical engineer and neuroscientist leading the Laboratory for NeuroEngineering at the Department of Neurosurgery, University of Freiburg.')]
 for path,out,title,desc in PAGES:
     name='home' if path=='/' else path.strip('/')
     body=open('scripts/pages/%s.html'%name).read()
