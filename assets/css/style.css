@@ -233,4 +233,6 @@ details.older > summary::-webkit-details-marker { display: none; }
 .wmap .inset-bg { fill: var(--paper); stroke: var(--rule); stroke-width: 1; }
 .wmap .inset-lbl { font-family: var(--mono); font-size: 10px; fill: var(--mute); letter-spacing: .08em; text-transform: uppercase; }
 .wmap svg path { stroke-width: .35; }
-.disease li a { font-family: var(--mono); font-size: .8rem; margin-left: .3rem; white-space: nowrap; }
+.disease li a:not(.ev) { font-family: var(--mono); font-size: .8rem; margin-left: .3rem; white-space: nowrap; }
+a.ev { color: var(--ink); border-bottom: 1px solid var(--rule); }
+a.ev:hover { color: var(--rust); border-bottom-color: var(--rust); }
