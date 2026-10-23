@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-23f'
+V='2026-10-23g'
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
 def initials(a):
