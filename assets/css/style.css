@@ -62,19 +62,19 @@ code { font-family: var(--mono); font-size: .9em; }
 
 /* hero (home) */
 .hero { padding: 3rem 0 0; }
-.hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 3rem; align-items: center; }
+.hero-grid { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: center; }
 .kicker { color: var(--rust); margin: 0 0 .75rem; }
 h1 { font-weight: 600; font-size: 3.4rem; line-height: 1.02; letter-spacing: -.025em; margin: 0 0 1.1rem; }
 .lede { font-size: 1.45rem; line-height: 1.35; font-weight: 400; letter-spacing: -.01em; margin: 0 0 .6rem; color: var(--ink); }
 .lede-sub { color: var(--mute); margin: 0; }
 .specimen { margin: 0; }
-.specimen img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.specimen img { display: block; width: 300px; height: 300px; object-fit: cover; }
 .specimen figcaption { font-family: var(--mono); font-size: .74rem; color: var(--mute); margin-top: .5rem; line-height: 1.5; }
 .sidecar { margin: 2rem 0 0; padding: 0; display: grid; gap: .25rem; border: 0; background: none; }
 .sidecar > div { display: grid; grid-template-columns: var(--gutter) 1fr; gap: 1rem; }
 .sidecar dt { color: var(--mute); }
 .sidecar dd { margin: 0; color: var(--ink-2); }
-.frieze { margin: 3rem 0 0; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.frieze { margin: 2.5rem 0 0; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
 .frieze img { display: block; width: 100%; height: auto; }
 [data-theme="dark"] .frieze img { filter: invert(1) brightness(1.2); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .frieze img { filter: invert(1) brightness(1.2); } }
@@ -86,7 +86,7 @@ h1 { font-weight: 600; font-size: 3.4rem; line-height: 1.02; letter-spacing: -.0
 .page-head .kicker { grid-column: 1; grid-row: 1; margin: .55rem 0 0; }
 .page-head h1 { font-size: 2.6rem; margin: 0 0 .75rem; }
 .page-head .lede { font-size: 1.25rem; max-width: 62ch; }
-.page-head .portrait { grid-column: 2; width: 128px; height: 128px; object-fit: cover; margin-bottom: 1rem; }
+.page-head .portrait { grid-column: 2; width: 180px; height: 180px; object-fit: cover; margin-bottom: 1.25rem; }
 
 /* sections: a short green tick in the gutter, content in the column */
 .sec { padding: 2.5rem 0; border-top: 1px solid var(--rule); display: grid; grid-template-columns: var(--gutter) 1fr; gap: 0 1rem; }
@@ -201,6 +201,7 @@ a.ev:hover { color: var(--rust); border-bottom-color: var(--rust); }
   .ledger, .grid3 { grid-template-columns: repeat(2, 1fr); }
   .tool-list { grid-template-columns: 1fr; }
   .hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .specimen img { width: 100%; max-width: 300px; height: auto; aspect-ratio: 1; }
 }
 @media (max-width: 640px) {
   :root { --gutter: 0; }
