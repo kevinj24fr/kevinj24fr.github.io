@@ -3,7 +3,7 @@
 import json, html, re, os, sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-V='2026-10-24c'
+V='2026-10-24d'
 DATA_DATE='23 Oct 2026'   # when publications.json / openalex.json / trajectory.json were last refreshed
 pubs=json.load(open('publications.json'))
 SPLIT=re.compile(r'[\s\-]+')
